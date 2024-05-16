@@ -9,7 +9,7 @@ repo: https://github.com/JinwonShen # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
-author: JinwonShen
+author:
   name: JinwonShen # author name
   bio: >- # tell to the world
     <a href="https://github.com/JinwonShen" target="_blank" rel="noopener">@github</a>.
