@@ -9,12 +9,12 @@ repo: https://github.com/JinwonShen # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
-author:
+author: JinwonShen
   name: JinwonShen # author name
   bio: >- # tell to the world
-    <a href="https://github.com/piharpi/JinwonShen" target="_blank" rel="noopener">@github</a>.
+    <a href="https://github.com/JinwonShen" target="_blank" rel="noopener">@github</a>.
   username: JinwonShen # general username
-  github: JinWonShen # github username
+  github: JinwonShen # github username
   twitter: xxx # twitter username
   facebook: xxx # facebook username
   email: bosv031999@gmail.com # email adress
