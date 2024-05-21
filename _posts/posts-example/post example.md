@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "post example !"
+date:   2024-05-21 11:25:00 +09:00
+categories: notice
+usemathjax: true
+---
+
+**마크다운 문서작성팁(마크업 언어)**
+
+<br>
+
+위 제목처럼 강조하려면 `**제목**` 과 같이 양쪽에 사용하면 된다.
+
+<br>
+
+다음으로 코드를 작성할 때에는 위처럼 ` 백틱을 처음과 끝에 배치해사용 !
+
+`<section>이런식으로</section>`
+
+<br>
+
+문단으로 코드를 표시하고 싶으면
+
+백틱을 세개 ``` 앞 뒤로 사용해 표현할 수 있다.
+
+
+```js
+<script>
+    const App = () => (
+    <Menu>
+        <Menu.Item>Home</Menu.Item>
+        <Menu.Item>Blog</Menu.Item>
+        <Menu.Item>About</Menu.Item>
+    </Menu>
+    );
+    이런식으로 표현이 가능.
+
+    상단 시작하는 지점의 백틱 앞 html, css, js 등 표기해둘 수 있음.
+</script>
+```
+
+<br>
+<br>
+
+타이핑 중 텍스트에 링크를 연결하고 싶을 때에는 `[텍스트](링크)` 를 활용하면 텍스트에 이런식으로 [링크](https://github.com/JinwonShen/JinwonShen.github.io)를 걸 수 있다.
+
+
+<br> 
+<br> 
+
+
+
+
+
