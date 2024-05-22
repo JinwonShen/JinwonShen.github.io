@@ -6,13 +6,15 @@ categories: notice
 usemathjax: true
 ---
 
-**마크다운 문서작성팁(마크업 언어)**
+## 마크다운 문서작성팁(마크업 언어)
 
-<br>
+### 강조
 
 위 제목처럼 강조하려면 `**제목**` 과 같이 양쪽에 사용하면 된다.
 
 <br>
+
+### 코드작성
 
 다음으로 코드를 작성할 때에는 위처럼 ` 백틱을 처음과 끝에 배치해사용 !
 
@@ -20,9 +22,9 @@ usemathjax: true
 
 <br>
 
-문단으로 코드를 표시하고 싶으면
+### 코드작성 문단
 
-백틱을 세개 ``` 앞 뒤로 사용해 표현할 수 있다.
+문단으로 코드를 표시하고 싶으면 백틱을 세개 ``` 앞 뒤로 사용해 표현할 수 있다.
 
 
 ```js
@@ -41,15 +43,46 @@ usemathjax: true
 ```
 
 <br>
-<br>
+
+### 텍스트에 링크 연결하기
 
 타이핑 중 텍스트에 링크를 연결하고 싶을 때에는 `[텍스트](링크)` 를 활용하면 텍스트에 이런식으로 [링크](https://github.com/JinwonShen/JinwonShen.github.io)를 걸 수 있다.
 
+```
+[텍스트](링크)
+
+    > [깃허브](https://github.com/JinwonShen/JinwonShen.github.io)
+```
 
 <br> 
-<br> 
 
+### 테이블 만들기
 
+표 혹은 테이블을 만들기 위해서는 | 를 좌/우에 thead/tbody :, -- 를 활용해 좌측정렬(:--), 우측정렬(--:), 가운데 정렬(:--:)으로 구분할 수 있다.
 
+<br>
 
+| Markdown                | HTML                               |    Rendered Output    |
+| :---------------------- | :--------------------------------- | :-------------------: |
+| `[Example Link](#link)` | `<a href="#link">Example Link</a>` | [Example Link](#Link) |
+| `_Be Italic_`           | `<em>Be Italic<em/>`               |      _Be Italic_      |
+| `**Be Bold**`           | `<strong>Be Italic<strong/>`       |      **Be Bold**      |
+
+<br>
+
+```
+| Markdown                | HTML                               |    Rendered Output    |
+| :---------------------- | :--------------------------------- | :-------------------: |
+| `[Example Link](#link)` | `<a href="#link">Example Link</a>` | [Example Link](#Link) |
+| `_Be Italic_`           | `<em>Be Italic<em/>`               |      _Be Italic_      |
+| `**Be Bold**`           | `<strong>Be Italic<strong/>`       |      **Be Bold**      |
+```
+
+### 마크 활용하기
+
+<mark>흔히 형광펜으로 칠한 것 같은 마킹 효과는</mark> 아래와 같이 mark 태그를 활용해 강조할 수 있다.
+
+```
+<mark>흔히 형광펜으로 칠한 것 같은 마킹 효과는</mark>
+```
 
