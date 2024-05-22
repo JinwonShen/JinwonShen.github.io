@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "post example !"
+title:  "CSS/grid와 Flex 간단히 알아보기"
 date:   2024-05-22 11:08:00 +09:00
 categories: notice
 usemathjax: true
