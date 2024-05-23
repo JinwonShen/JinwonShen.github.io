@@ -258,3 +258,90 @@ tag:
 </figure>
 
 <br>
+
+
+### Grid
+
+- Flex와 구분되는 점은 자식요소를 상당히 특이한 모습으로 활용이 가능하다는 것.
+
+<br>
+
+> Grid 활용예시
+
+```html
+<style>
+    .wrapper {
+      /* display: flex; 와 구분되는 것은 자식요소가 상당히 특이한모양을 가질 수 있다는 것  */
+      display: grid;
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      grid-template-columns: repeat(3, 1fr); /* 1ft이 세번 반복되는 것 */
+      /* grid-column-gap: 10px; */
+      /* grid-row-gap: 10px; */
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto) /* 최소 100px 넘치는 부분은 자동 */
+    }
+    .wrapper > div {
+      background-color: #efefef;
+      padding: 16px;
+    }
+    .wrapper > div:nth-child(odd) {
+      background-color: #ddd;
+    }
+    /* 꼭짓점을 기준으로 */
+    .item1 {
+      grid-column: 1/4;
+    }
+    .item4 {
+      grid-row: 2/5;
+      grid-column: 3/4;
+    }
+  </style>
+<body>
+  <div class="wrapper">
+    <div class="item item1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum soluta iste exercitationem. Consequuntur debitis nesciunt illum facere aperiam explicabo magnam.
+    </div>
+    <div class="item item2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere fuga molestiae quos ducimus beatae placeat nihil rerum doloremque quidem culpa.
+    </div>
+    <div class="item item3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur reiciendis, eveniet exercitationem explicabo rem earum officia odit cumque eos quasi.
+    </div>
+    <div class="item item4">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel corporis tenetur accusantium, fugiat quisquam? Animi, tenetur similique molestias provident beatae minus ducimus pariatur cupiditate explicabo nostrum, autem eveniet saepe?
+    </div>
+    <div class="item item5">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel corporis tenetur accusantium, fugiat quisquam? Animi, tenetur similique molestias provident beatae minus ducimus pariatur cupiditate explicabo nostrum, autem eveniet saepe?
+    </div>
+    <div class="item item6">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel corporis tenetur accusantium, fugiat quisquam? Animi, tenetur similique molestias provident beatae minus ducimus pariatur cupiditate explicabo nostrum, autem eveniet saepe?
+    </div>
+    <div class="item item7">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel corporis tenetur accusantium, fugiat quisquam? Animi, tenetur similique molestias provident beatae minus ducimus pariatur cupiditate explicabo nostrum, autem eveniet saepe?
+    </div>
+    <div class="item item8">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel corporis tenetur accusantium, fugiat quisquam? Animi, tenetur similique molestias provident beatae minus ducimus pariatur cupiditate explicabo nostrum, autem eveniet saepe?
+    </div>
+  </div>
+</body>
+```
+
+<br>
+
+> 결과 이미지
+
+<figure>
+<img src="/assets/img/grid-img-1.png" alt="display: grid;">
+<figcaption>grid.1 display: grid;</figcaption>
+</figure>
+
+<br>
+
+--- 
+
+<br>
+
+**한줄평**
+<!-- ## 한줄평  -->
+
+_"여기까지 레이아웃, 그리드를 잡는 데 중요하다고 생각하는 flex와 grid를 알아보았습니다. 반응형 웹을 제작하는 데 있어 가장 중요한 역할을 하는 것 중 하나라고 생각해서 연습이 많이 필요할 것 같다."_
