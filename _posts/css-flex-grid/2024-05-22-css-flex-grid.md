@@ -27,9 +27,8 @@ tag:
 ```html 
 <style>
     .container-1 {
-      display: flex; /* 부모요소 */
+      display: flex; /* flex.1 부모요소 */
       align-items: center; /* item의 세로방향 가운데 정렬 */
-
     }
     .container-1 > div {
       border: 1px solid #ddd;
@@ -81,9 +80,9 @@ tag:
 <style>
     .container-1 {
       display: flex; /* 부모요소 */
-      align-items: start; /* item 상단배치 */
-      align-items: end; /* item 하단배치 */
-      align-items: stretch; /* item의 최대 높이로 맞추기 */
+      align-items: start; /* flex.2 */
+      align-items: end; /* flex.3 */
+      align-items: stretch; /* flex.4 item의 최대 높이로 맞추기 */
 
     }
     .container-1 > div {
@@ -123,6 +122,139 @@ tag:
 <figure>
 <img src="/assets/img/flex-img-4.png" alt="display:flex">
 <figcaption>flex.4 align-items: stretch;</figcaption>
+</figure>
+
+<br>
+
+> flex 활용예시 3
+
+```html
+<style>
+    .container-1 {
+          display: flex; 
+          align-items: stretch;
+          align-items: flex-end; /* flex.8 */
+          justify-content: center; /* flex.5 */
+          justify-content: flex-start; /* flex.6 */
+          justify-content: flex-end; /* flex.7 */
+        }
+        .container-1 > div {
+          border: 1px solid #ddd;
+          max-width: 200px;
+        }
+    
+        .box-1 {
+          flex: 1; 
+        }
+        .box-2 {
+          flex: 1;
+        }
+        .box-3 {
+          flex: 1;
+        }
+  </style>
+```
+
+<br>
+
+> 결과 이미지
+
+<figure>
+<img src="/assets/img/flex-img-5.png" alt="display:flex">
+<figcaption>flex.5 justify-content: center;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-6.png" alt="display:flex">
+<figcaption>flex.6 justify-content: flex-start;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-7.png" alt="display:flex">
+<figcaption>flex.7 justify-content: flex-end;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-8.png" alt="display:flex">
+<figcaption>flex.8 align-items: flex-end; justify-content: flex-end;</figcaption>
+</figure>
+
+<br>
+
+
+> flex 활용예시 4
+
+```html
+<style>
+    .container-1 {
+          display: flex; 
+          flex-direction: column; /* flex.13 가로 -> 세로로 변경 */
+          align-items: center;
+          justify-content: space-around; /* flex.9 */
+          justify-content: space-between; /* flex.10 */
+          justify-content: space-evenly; /* flex.11 */
+        }
+        .container-1 > div {
+          border: 1px solid #ddd;
+          max-width: 200px;
+        }
+    
+        .box-1 {
+          flex: 1; 
+          order: 3; /* flex.12 순서를 임의로 변경하는 */
+        }
+        .box-2 {
+          flex: 1;
+          order: 1;
+        }
+        .box-3 {
+          flex: 1;
+          order: 2;
+        }
+  </style>
+```
+
+<br>
+
+> 결과 이미지
+
+<figure>
+<img src="/assets/img/flex-img-9.png" alt="display:flex">
+<figcaption>flex.9 justify-content: space-around;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-10.png" alt="display:flex">
+<figcaption>flex.10 justify-content: space-between;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-11.png" alt="display:flex">
+<figcaption>flex.11 justify-content: space-evenly;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-12.png" alt="display:flex">
+<figcaption>flex.12 order: n;</figcaption>
+</figure>
+
+<br>
+
+<figure>
+<img src="/assets/img/flex-img-13.png" alt="display:flex">
+<figcaption>flex.13 flex-direction: column;</figcaption>
 </figure>
 
 <br>
