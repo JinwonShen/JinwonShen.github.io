@@ -6,6 +6,6 @@ categories: notice
 usemathjax: true
 tag:
   - css
-  - grid
-  - flex
+  - framwork
+  - bootstrap
 ---
