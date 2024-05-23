@@ -289,11 +289,11 @@ tag:
     }
     /* 꼭짓점을 기준으로 */
     .item1 {
-      grid-column: 1/4;
+      grid-column: 1/4; /* column(가로)으로 1부터 4까지 */
     }
     .item4 {
-      grid-row: 2/5;
-      grid-column: 3/4;
+      grid-row: 2/5; /* row(세로)로 2부터 5까지 */
+      grid-column: 3/4; /* column(가로)으로 3부터 4까지  */
     }
   </style>
 <body>
