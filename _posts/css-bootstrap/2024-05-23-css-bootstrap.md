@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CSS/css 프레임워크 : 부트스트랩(bootstrap), 머터리얼라이즈(Materialize) 알아보기"
+title:  "CSS/css 프레임워크 : bootstrap, Materialize 알아보기"
 date:   2024-05-23 11:47:00 +09:00
 categories: notice
 usemathjax: true
@@ -66,3 +66,5 @@ Bootstrap(부트스트랩)은 프로젝트를 진행하면서 검색하고 사�
 ### 사이트 링크 참고
 - [Bootstrap](https://getbootstrap.com/) <br>
 - [Materialize](https://materializecss.com/getting-started.html/)
+
+
