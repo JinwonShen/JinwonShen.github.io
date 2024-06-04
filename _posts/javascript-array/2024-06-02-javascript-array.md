@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "Javascript/array 배열"
+title:  "Javascript/Array 배열"
 date:   2024-06-02 23:05 +09:00
 categories: notice
 usemathjax: true
 tag:
   - javascript
+  - array
   - 배열
 ---
 
 ## array(배열)
 
-배열(array)은 동일한 데이터 타입의 변수들이 메모리에 연속해서 할당된 구조
+array(배열)는 동일한 데이터 타입의 변수들이 메모리에 연속해서 할당된 구조
 
 <br>
 
