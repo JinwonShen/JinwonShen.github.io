@@ -5,6 +5,10 @@
   -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   transition: background-color 75ms ease-in, border-color 75ms ease-in;
+  animation: fadein 1s;    
+	-moz-animation: fadein 1s;    
+	-webkit-animation: fadein 1s;    
+	-o-animation: fadein 1s;
 }
 
 .notransition {
@@ -21,10 +25,10 @@ html {
   width: 100%;
   
   /* 페이지 서서히 나타나기 */
-  animation: fadein 2s;    
-	-moz-animation: fadein 2s;    
-	-webkit-animation: fadein 2s;    
-	-o-animation: fadein 2s;
+  animation: fadein 1s;    
+	-moz-animation: fadein 1s;    
+	-webkit-animation: fadein 1s;    
+	-o-animation: fadein 1s;
 }
 
 body,
@@ -45,6 +49,12 @@ ul,
 figure {
   margin: 0;
   padding: 0;
+
+  /* 페이지 서서히 나타나기 */
+  animation: fadein 1s;    
+	-moz-animation: fadein 1s;    
+	-webkit-animation: fadein 1s;    
+	-o-animation: fadein 1s;
 }
 
 // Basic styling
@@ -65,10 +75,10 @@ body {
   box-sizing: border-box;
 
   /* 페이지 서서히 나타나기 */
-  animation: fadein 2s;    
-	-moz-animation: fadein 2s;    
-	-webkit-animation: fadein 2s;    
-	-o-animation: fadein 2s;
+  animation: fadein 1s;    
+	-moz-animation: fadein 1s;    
+	-webkit-animation: fadein 1s;    
+	-o-animation: fadein 1s;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -88,12 +98,6 @@ figure,
 %vertical-rhythm {
   margin-top: $spacing-full - 20;
   margin-bottom: $spacing-full - 20;
-
-  /* 페이지 서서히 나타나기 */
-  animation: fadein 2s;    
-	-moz-animation: fadein 2s;    
-	-webkit-animation: fadein 2s;    
-	-o-animation: fadein 2s;
 }
 
 // strong | bold
