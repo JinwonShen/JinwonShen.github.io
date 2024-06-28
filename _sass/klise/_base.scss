@@ -5,6 +5,8 @@
   -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   transition: background-color 75ms ease-in, border-color 75ms ease-in;
+
+  // 페이지 서서히 나타나기
   animation: fadein 1s;    
 	-moz-animation: fadein 1s;    
 	-webkit-animation: fadein 1s;    
@@ -24,7 +26,7 @@ html {
   overflow-y: scroll;
   width: 100%;
   
-  /* 페이지 서서히 나타나기 */
+  // 페이지 서서히 나타나기
   animation: fadein 1s;    
 	-moz-animation: fadein 1s;    
 	-webkit-animation: fadein 1s;    
@@ -50,7 +52,7 @@ figure {
   margin: 0;
   padding: 0;
 
-  /* 페이지 서서히 나타나기 */
+  // 페이지 서서히 나타나기
   animation: fadein 1s;    
 	-moz-animation: fadein 1s;    
 	-webkit-animation: fadein 1s;    
@@ -74,7 +76,7 @@ body {
   font-kerning: normal;
   box-sizing: border-box;
 
-  /* 페이지 서서히 나타나기 */
+  // 페이지 서서히 나타나기
   animation: fadein 1s;    
 	-moz-animation: fadein 1s;    
 	-webkit-animation: fadein 1s;    
@@ -388,4 +390,32 @@ mark,
       border: 0;
     }
   }
+}
+
+// 페이지 서서히 나타나기
+
+@keyframes fadein {    
+	from {        
+		opacity:0;    
+	}    
+	to {        opacity:1;    
+	}
+}
+
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

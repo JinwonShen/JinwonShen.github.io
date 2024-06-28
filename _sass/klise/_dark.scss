@@ -245,3 +245,31 @@ body[data-theme="dark"] {
     }
   }
 }
+
+// 페이지 서서히 나타나기
+
+@keyframes fadein {    
+	from {        
+		opacity:0;    
+	}    
+	to {        opacity:1;    
+	}
+}
+
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

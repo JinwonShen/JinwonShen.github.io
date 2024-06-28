@@ -63,7 +63,7 @@ $on-widescreen: 1152px;
 
 @keyframes fadein {    
 	from {        
-		opacity:0.1;    
+		opacity:0;    
 	}    
 	to {        opacity:1;    
 	}
@@ -71,7 +71,7 @@ $on-widescreen: 1152px;
 
 @-moz-keyframes fadein {
 	from {
-		opacity: 0.1;
+		opacity: 0;
 	}
 	to {
 		opacity: 1;
@@ -80,7 +80,7 @@ $on-widescreen: 1152px;
 
 @-webkit-keyframes fadein {
 	from {
-		opacity: 0.1;
+		opacity: 0;
 	}
 	to {
 		opacity: 1;
