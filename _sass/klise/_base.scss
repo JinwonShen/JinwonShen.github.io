@@ -5,12 +5,6 @@
   -ms-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   -o-transition: background-color 75ms ease-in, border-color 75ms ease-in;
   transition: background-color 75ms ease-in, border-color 75ms ease-in;
-
-  // 페이지 서서히 나타나기
-  animation: fadein 1s;    
-	-moz-animation: fadein 1s;    
-	-webkit-animation: fadein 1s;    
-	-o-animation: fadein 1s;
 }
 
 .notransition {
@@ -25,12 +19,6 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
-  
-  // 페이지 서서히 나타나기
-  animation: fadein 1s;    
-	-moz-animation: fadein 1s;    
-	-webkit-animation: fadein 1s;    
-	-o-animation: fadein 1s;
 }
 
 body,
@@ -51,12 +39,6 @@ ul,
 figure {
   margin: 0;
   padding: 0;
-
-  // 페이지 서서히 나타나기
-  animation: fadein 1s;    
-	-moz-animation: fadein 1s;    
-	-webkit-animation: fadein 1s;    
-	-o-animation: fadein 1s;
 }
 
 // Basic styling
@@ -75,12 +57,6 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   box-sizing: border-box;
-
-  // 페이지 서서히 나타나기
-  animation: fadein 1s;    
-	-moz-animation: fadein 1s;    
-	-webkit-animation: fadein 1s;    
-	-o-animation: fadein 1s;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -390,32 +366,4 @@ mark,
       border: 0;
     }
   }
-}
-
-// 페이지 서서히 나타나기
-
-@keyframes fadein {    
-	from {        
-		opacity:0;    
-	}    
-	to {        opacity:1;    
-	}
-}
-
-@-moz-keyframes fadein {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes fadein {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
 }
