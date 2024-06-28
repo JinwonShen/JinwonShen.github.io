@@ -19,6 +19,7 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
+  
   /* 페이지 서서히 나타나기 */
   animation: fadein 2s;    
 	-moz-animation: fadein 2s;    
@@ -62,6 +63,12 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   box-sizing: border-box;
+
+  /* 페이지 서서히 나타나기 */
+  animation: fadein 2s;    
+	-moz-animation: fadein 2s;    
+	-webkit-animation: fadein 2s;    
+	-o-animation: fadein 2s;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -81,6 +88,12 @@ figure,
 %vertical-rhythm {
   margin-top: $spacing-full - 20;
   margin-bottom: $spacing-full - 20;
+
+  /* 페이지 서서히 나타나기 */
+  animation: fadein 2s;    
+	-moz-animation: fadein 2s;    
+	-webkit-animation: fadein 2s;    
+	-o-animation: fadein 2s;
 }
 
 // strong | bold
