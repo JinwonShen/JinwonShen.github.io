@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Javascript/oop(객체지향) 프로그래밍"
-date:   2024-06-02 23:05 +09:00
+date:   2024-07-27 15:40 +09:00
 categories: notice
 usemathjax: true
 tag:
