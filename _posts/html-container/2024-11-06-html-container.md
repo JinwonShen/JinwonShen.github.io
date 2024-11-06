@@ -9,6 +9,11 @@ tag:
   - 콘텐츠 분할요소
   - div
   - span
+  - header
+  - footer
+  - article
+  - aside
+  - section
 discription: 
 ---
 
