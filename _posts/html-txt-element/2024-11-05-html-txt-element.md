@@ -17,6 +17,15 @@ discription:
 
 html 요소는 6단계의 구획 제목을 나타냅니다. 구획 단계는 `<h1>`이 가장 높고 `<h6>`이 가장 낮습니다.
 
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNVgKaP" data-pen-title="text - element" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WNVgKaP">
+  text - element</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 #### 유의할 점
 
 ```
@@ -26,15 +35,6 @@ html 요소는 6단계의 구획 제목을 나타냅니다. 구획 단계는 `<h
 
   - 페이지 당 하나의 `h1` 을 사용한다. 여러 개를 사용해도 오류는 나지 않지만, 단일 `h1` 이 모범 사례로 꼽힌다.
 ```
-
-- 따라하기
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNVgKaP" data-pen-title="text - element" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WNVgKaP">
-  text - element</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <br>
  
@@ -140,7 +140,7 @@ html `<b>` 요소는 독자의 주의를 요소의 콘텐츠로 끌기 위한 �
 ### 본문 - i, em
 
 html `<i>` 요소는 텍스트에서 어떤 이유로 주위와 구분해야 하는 부분을 나타낸다. 기술용어, 외국어 구절, 등장인물의 생각 등을 예시로 들 수 있다. 보통 기울임꼴로 표시
-
+<br>
 `<em>` 요소 또한 텍스트의 강세를 나타낸다. 단순히 기울임 꼴이 필요해서 `<i>` `<em>` 사용해선 안 된다.
 
 - 따라하기
