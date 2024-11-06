@@ -21,12 +21,7 @@ html 요소는 6단계의 구획 제목을 나타냅니다. 구획 단계는 `<h
 
 - 따라하기
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGXxqeX" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bGXxqeX">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 #### 사용 시 유의할 점 한눈에 보기
 - 글씨 크기를 위해 제목 태그를 사용해선 안 된다. 대신 css의 `font-size` 속성을 사용한다.
@@ -43,12 +38,7 @@ html `<p>` 요소는 하나의 문단을 나타낸다. 문단은 블록 레벨 �
 
 - 따라하기
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGXxqeX" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bGXxqeX">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
@@ -60,32 +50,15 @@ html `<br>` 요소는 텍스트 안에 줄바꿈(캐리지 리턴)을 생성한�
 
 - 따라하기
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGXxqeX" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bGXxqeX">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
 ### 본문 - blockquote, q
 
-
-
-
-
-<div>
-  <blockquote cite="https://www.jinwonshen.github.io">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit</p>
-  </blockquote>
-  <p>—jinwonShen, <cite>frontend developer</cite></p>
-</div>
+html `<blockquote>` 요소는 안쪽의 텍스트가 긴 인용문임을 나타낸다. 주로 들여쓰기를 한 것으로 그려진다. 인용문의 출처 url은 `<cite>` 특성으로, 출처 텍스트는 `<cite>` 요소로 제공할 수 있다.
 
 <br>
-
-
-
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
@@ -101,12 +74,7 @@ html `<br>` 요소는 텍스트 안에 줄바꿈(캐리지 리턴)을 생성한�
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
@@ -114,12 +82,7 @@ html `<br>` 요소는 텍스트 안에 줄바꿈(캐리지 리턴)을 생성한�
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
@@ -127,12 +90,7 @@ html `<br>` 요소는 텍스트 안에 줄바꿈(캐리지 리턴)을 생성한�
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
@@ -142,24 +100,14 @@ html `<br>` 요소는 텍스트 안에 줄바꿈(캐리지 리턴)을 생성한�
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
 ### 본문 - b, strong
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjYw" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjYw">
-  Untitled</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 
 <br>
 
