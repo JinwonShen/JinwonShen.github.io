@@ -80,3 +80,55 @@ html 요소 `<aside>`는 문서의 주요 내용과 간접적으로만 관련이
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <br>
+
+### main
+
+html 요소 `<main>`은 문서의 주요 내용을 나타낸다. 주요 내용 영역은 문서의 중심 주제 또는 애플리케이션의 중심 기능과 직접 관련이 있거나 이를 확장하는 내용으로 구성된다.
+
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxvaMrm" data-pen-title="main" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xxvaMrm">
+  main</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### 유의할 점
+요소의 내용은 `<main>`문서에 고유해야 한다. 사이드바, 탐색링크, 저작권 정보, 사이트 로고, 검색 양식과 같이 문서나 문서 섹션에 걸쳐 반복되는 내용은 검색 양식이 페이지의 주요 기능이 아닌 한 포함해서는 안된다.
+
+> 엄격한 정보 제공용이다.
+
+<br>
+
+### article
+
+html `<article>`요소는 문서, 페이지, 애플리케이션 또는 사이트에서 독립적으로 배포되거나 재사용될 수 있도록 의도된 자체 포함 구성을 나타낸다. 예를 들어 게시물, 잡지 또는 신문 기사, 블로그 항목, 제품 카드, 사용자가 제출한 댓글, 대화형 위젯 또는 가젯 또는 기타 독립적인 콘텐츠 항목이 있습니다.
+
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWNqLOV" data-pen-title="article" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MWNqLOV">
+  article</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### 유의할 점
+- 각 요소는 일반적으로 요소의 자식으로 `<article>` 제목(h1 - h6 <article> 요소)를 포함해 식별해야 한다.
+- 요소가 중첩되면 `<article>`내부 요소는 외부 요소와 관련된 기사를 나타낸다. 예를 들어, 블로그 게시물의 댓글은 블로그 게시물을 나타내는 `<article>`은 중첩된 요소가 될 수 있다.
+
+<br>
+
+### section
+
+html `<section>`요소는 문서의 일반적인 독립형 섹션을 나타내며, 이를 나타낼 더 구체적인 의미적 요소가 없다. 섹션에는 항상 제목이 있어야 하며, 예외는 거의 없다.
+
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYgJbZO" data-pen-title="section" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/zYgJbZO">
+  section</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
