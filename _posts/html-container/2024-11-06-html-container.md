@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "html의 구조를 나타내는"
+title:  "html/ html의 구조를 나타내는"
 date:   2024-11-06 22:14:00 +09:00
 categories: notice
 usemathjax: true
