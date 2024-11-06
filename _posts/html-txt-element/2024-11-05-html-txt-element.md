@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "html/ 텍스트 요소"
+title:  "(html) 텍스트 요소"
 date:   2024-11-05 22:14:00 +09:00
 categories: notice
 usemathjax: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "다시 시작하기"
+title:  "(jinwon) 다시 시작하기"
 date:   2024-11-04 17:26:00 +09:00
 categories: notice
 usemathjax: true
