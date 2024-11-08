@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "(html) 임베디드 요소"
-date:   2024-11-06 23:31:00 +09:00
+date:   2024-11-07 23:31:00 +09:00
 categories: notice
 usemathjax: true
 tag:
