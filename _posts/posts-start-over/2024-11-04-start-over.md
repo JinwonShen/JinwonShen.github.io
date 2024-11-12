@@ -8,6 +8,8 @@ tag:
   - 다시 시작하기
   - 프론트엔드
   - 개발자
+  - 제로베이스
+  - zerobase
 discription: 
 ---
 
