@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(css) css Selector(선택자)"
+title:  "(css) Selector(선택자)"
 date:   2024-11-16 13:38:00 +09:00
 categories: notice
 usemathjax: true
