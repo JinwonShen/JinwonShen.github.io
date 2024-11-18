@@ -60,9 +60,9 @@ transition: all 0.5s ease-out;
 
 - 따라하기
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGXJyKm" data-pen-title="transition-property" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bGXJyKm">
-  transition-property</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdNYedL" data-pen-title="transition-" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/mdNYedL">
+  transition-</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
