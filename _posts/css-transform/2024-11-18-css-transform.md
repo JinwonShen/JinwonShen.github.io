@@ -57,6 +57,8 @@ transform: initial;
 transform: unset;
 ```
 
+<br>
+
 ## scale - 크기
 
 `scale()` css 함수는 2D 평면에서 요소의 크기를 조정하는 변환을 정의한다. 수평 및 수직 차원을 다른 스케일로 조정할 수 있다.
