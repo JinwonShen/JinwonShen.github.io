@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "(css) grid"
-date:   2024-11-20 17:15:00 +09:00
+date:   2024-11-21 17:15:00 +09:00
 categories: notice
 usemathjax: true
 tag:
