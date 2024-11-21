@@ -29,8 +29,6 @@ discription:
 <figcaption>html elements ranking</figcaption>
 </figure>
 
-<br>
-
 [출처 : Advanced WEB RAKING](https://www.advancedwebranking.com/seo/html-study)
 
 <br>
