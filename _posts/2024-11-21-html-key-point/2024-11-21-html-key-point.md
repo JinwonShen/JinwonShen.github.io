@@ -6,6 +6,7 @@ categories: notice
 usemathjax: true
 tag:
   - html
+  - keypoint
 discription: 
 ---
 
