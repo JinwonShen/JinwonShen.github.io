@@ -5,7 +5,7 @@ date:   2024-11-21 17:15:00 +09:00
 categories: notice
 usemathjax: true
 tag:
-  - @media
+  - media tag
   - media query
   - breakpoint
 discription: 
