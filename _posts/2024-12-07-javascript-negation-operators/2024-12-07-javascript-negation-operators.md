@@ -8,14 +8,22 @@ tag:
   - javascript
   - js
   - operators
-  - arithmetic operators
-  - assignment operators
+  - negation operators
+  - comparison operators
 discription:
 ---
 
 ## 부정연산자(negation operators)란,
 
 부정연산자(negation operators)란 참과 거짓의 반댓값을 불린 데이터로 반환한다.
+
+<br>
+
+## 비교연산자(comparison operators)란,
+
+비교 연산자(comparison operators)는 논리 문장에서 변수나 값의 동등성이나 차이를 판별하는 데 사용된다.
+
+<br>
 
 ```js
 console.log(!true); // false
