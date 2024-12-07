@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(javascript/js) nagation operators"
+title: "(javascript/js) nagation operator"
 date: 2024-12-07 16:51:00 +09:00
 categories: notice
 usemathjax: true
