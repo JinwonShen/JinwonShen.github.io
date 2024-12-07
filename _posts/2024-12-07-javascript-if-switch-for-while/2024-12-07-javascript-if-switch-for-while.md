@@ -192,3 +192,54 @@ for (const key in user) {
   document.querySelector(".for").appendChild(pEl);
 }
 ```
+
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNbYL" data-pen-title="js/for" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKNbYL">
+  js/for</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br>
+
+## while
+
+`while` 문은 조건문이 참일 때 실행되는 반복문이다. 조건은 문장안이 실행되기 전에 참, 거짓을 판단한다.
+
+### 구문
+
+```js
+// while 문
+// while (조건) {}
+
+/* let count = 1
+
+while (count <= 10) {
+  const divEl = document.createElement('div')
+  divEl.textContent = count
+  document.querySelector('.while').appendChild(divEl)
+  count += 1
+} */
+
+// for 문
+for (let i = 0; i <= 10; i += 1) {
+  const divEl = document.createElement("div");
+  divEl.textContent = i;
+  document.querySelector(".while").append(divEl);
+}
+
+// for, while은 취향차이 혹은 상황에 맞게 사용할 수 있다.
+```
+
+- 따라하기
+
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZqYN" data-pen-title="js/while" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qEWZqYN">
+  js/while</a> by Shen Jinwon (<a href="https://codepen.io/sjinwon">@sjinwon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br>
