@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "(javascript/js) arithmetic operator"
-date: 2024-12-07 15:38:00 +09:00
+date: 2024-12-07 16:49:00 +09:00
 categories: notice
 usemathjax: true
 tag:
   - javascript
   - js
+  - operators
   - arithmetic operators
   - assignment operators
 discription:
