@@ -14,6 +14,8 @@ discription:
 
 ## Truthy(참으로 평가되는 값)
 
+### 구문
+
 ```js
 if (true) {
   console.log("참!");
