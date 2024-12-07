@@ -21,6 +21,8 @@ discription:
 
 `typeof` 연산자는 피연산자의 평가 전 자료형을 나타내는 문자열을 반환한다.
 
+### 구문
+
 ```js
 const data = {
   string: "123",
