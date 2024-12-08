@@ -63,6 +63,8 @@ if (-Infinity) {
 
 ## Falsy(거짓으로 평가되는 값)
 
+### 구문
+
 ```js
 if (false) {
   console.log("거짓..");
