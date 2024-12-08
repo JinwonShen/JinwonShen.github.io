@@ -17,6 +17,8 @@ discription:
 
 불린 `boolean` 은 `true`와 `false` 두 가지 값인 참/거짓의 논리 데이터이다.
 
+### 구문
+
 ```js
 const a = true;
 const b = false;
