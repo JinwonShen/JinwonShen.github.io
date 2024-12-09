@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(javascript/js) DOM(Document Object Model)"
-date: 2024-12-08 20:19:00 +09:00
+date: 2024-12-09 11:32:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -11,6 +11,37 @@ tag:
   - Document Object Model
   - 노드(Node)
   - 요소(Element)
+  - .querySelector(선택자)
+  - .querySelectorAll(선택자)
+  - .getElementById(아이디)
+  - .parentElement
+  - .previousElementSibling
+  - .nextElementSibling
+  - .firstElementChild()
+  - .lastElementChild()
+  - .createElement()
+  - .prepend()
+  - .append()
+  - .appendChild()
+  - .remove()
+  - .contains()
+  - .textContent
+  - .innerHTML
+  - .dataset
+  - .classList
+  - .getAttribute()
+  - .setAttribute()
+  - .hasAttribute()
+  - .removeAttribute()
+  - window.innerWidth
+  - window.innerHeight
+  - window.scrollX
+  - window.scrollY
+  - window.scrollTo()
+  - .offsetWidth/Height
+  - .clientWidth/Height
+  - .clientWidth/Height
+  - scrollWidth/Height
 discription:
 ---
 
