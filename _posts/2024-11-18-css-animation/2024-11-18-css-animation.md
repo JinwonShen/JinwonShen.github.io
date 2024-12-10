@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "(css) animation"
-date:   2024-11-18 22:25:00 +09:00
+title: "(css) animation"
+date: 2024-11-18 22:25:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -15,7 +15,7 @@ tag:
   - animation-direction
   - animation-play-state
   - animation-fill-mode
-discription: 
+discription:
 ---
 
 # animation
@@ -24,7 +24,7 @@ discription:
 
 `@keyframes` @규칙은 개발자가 애니메이션 중간중간의 특정 지점들을 거칠 수 있는 키프레임들을 설정함으로써 css 애니메이션 과정의 중간 절차를 제어할 수 있게 한다. 이를 통해 브라우저가 `transitions`으로 애니메이션을 처리하는 것 보다 더 세밀하게 중간 동작들을 제어할 수 있다.
 
-### 구문
+### 간단한 예시
 
 ```css
 @keyframes slidein {
@@ -166,7 +166,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 <br>
 
-### 구문
+### 간단한 예시
 
 ```css
 /* @keyframes duration | easing-function | delay |
@@ -177,7 +177,5 @@ animation: 3s ease-in 1s 2 reverse both paused slidein;
 animation: 3s linear 1s slidein;
 
 /* 애니메이션 두 개 */
-animation:
-  3s linear slidein,
-  3s ease-out 5s slideout;
+animation: 3s linear slidein, 3s ease-out 5s slideout;
 ```

@@ -379,7 +379,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 지정된 좌표로 대상을 스크롤한다.
 
-### 구문
+### 간단한 예시
 
 ```js
 // 첫 번째 방식

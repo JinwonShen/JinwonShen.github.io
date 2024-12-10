@@ -17,7 +17,7 @@ discription:
 
 자바스크립트는 에러가 발생하면 에러가 발생한 뒤 코드가 모두 실행되지 않는데, `?.` 선택적 체이닝을 활용하면 에러를 `undefined(false)` 로 만들어 에러 뒤 코드를 실행할 수 있다.
 
-### 구문
+### 간단한 예시
 
 ```js
 console.log(null?.abc); // undefined

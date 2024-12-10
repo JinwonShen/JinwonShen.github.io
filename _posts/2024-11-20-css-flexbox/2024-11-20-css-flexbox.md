@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "(css) flex box"
-date:   2024-11-20 11:29:00 +09:00
+title: "(css) flex box"
+date: 2024-11-20 11:29:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -20,7 +20,7 @@ tag:
   - align-items
   - align-content
   - align-self
-discription: 
+discription:
 ---
 
 # flexbox
@@ -186,7 +186,7 @@ css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치�
 
 <br>
 
-### 구문
+### 간단한 예시
 
 ```css
 /* Keyword values */
@@ -222,7 +222,7 @@ flex: unset;
 
 CSS의 `justify-content` 속성은 브라우저가 콘텐츠 항목 사이와 주변의 공간을 플렉스 컨테이너에서는 `main-axis`, 그리고 그리드 컨테이너에서는 인라인 축을 기준으로 어떻게 정렬할 것인지를 정의한다.
 
-### 구문
+### 간단한 예시
 
 ```css
 /* 위치 기준 정렬 */

@@ -14,7 +14,7 @@ discription:
 
 ## Truthy(참으로 평가되는 값)
 
-### 구문
+### 간단한 예시
 
 ```js
 if (true) {
@@ -63,7 +63,7 @@ if (-Infinity) {
 
 ## Falsy(거짓으로 평가되는 값)
 
-### 구문
+### 간단한 예시
 
 ```js
 if (false) {
