@@ -57,6 +57,8 @@ if (h1El) {
 }
 ```
 
+<br>
+
 - 따라하기
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="RNbaGRX" data-pen-title="js/type-conversion" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -65,3 +67,5 @@ if (h1El) {
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br>
