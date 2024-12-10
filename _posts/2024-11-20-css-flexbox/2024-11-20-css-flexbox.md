@@ -263,6 +263,8 @@ justify-content: revert-layer;
 justify-content: unset;
 ```
 
+<br>
+
 - 따라하기
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRVbJqN" data-pen-title="justify-contents" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

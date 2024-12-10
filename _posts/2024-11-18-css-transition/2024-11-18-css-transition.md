@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "(css) transition"
-date:   2024-11-18 14:57:00 +09:00
+title: "(css) transition"
+date: 2024-11-18 14:57:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -11,7 +11,7 @@ tag:
   - transition-timing-function
   - transition
   - transform
-discription: 
+discription:
 ---
 
 # transition
@@ -21,14 +21,15 @@ discription:
 <br>
 
 초기값
+
 - transition-delay : 0s
-- transition-duration : 0s 
+- transition-duration : 0s
 - transition-property : all
 - transition-timimg-funtion : ease
 
 <br>
 
-### 사용 구문
+### 간단한 예시
 
 ```css
 /* Apply to 1 property */
@@ -42,9 +43,7 @@ transition: margin-left 4s 1s;
 transition: margin-left 4s ease-in-out 1s;
 
 /* Apply to 2 properties */
-transition:
-  margin-left 4s,
-  color 1s;
+transition: margin-left 4s, color 1s;
 
 /* Apply to all changed properties */
 transition: all 0.5s ease-out;
@@ -90,4 +89,3 @@ transition: all 0.5s ease-out;
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <br>
-
