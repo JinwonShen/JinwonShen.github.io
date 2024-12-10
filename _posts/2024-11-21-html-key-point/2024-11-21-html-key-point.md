@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "(html) 핵심 html"
-date:   2024-11-21 23:13:00 +09:00
+title: "(html) 핵심 html"
+date: 2024-11-21 23:13:00 +09:00
 categories: notice
 usemathjax: true
 tag:
   - html
   - keypoint
-discription: 
+discription:
 ---
 
 # 핵심 html
@@ -18,8 +18,8 @@ discription:
 <div><p>마크업</p></div>
 <!-- ex) <여는태그>마크업</닫는태그> -->
 
-<img src="이미지 주소" width="300" height="100">
-<input type="text" placeholder="입력하세요">
+<img src="이미지 주소" width="300" height="100" />
+<input type="text" placeholder="입력하세요" />
 <!-- 콘텐츠가 태그에 포함되어 있는 경우에는, 닫는 태그가 없다. -->
 ```
 
@@ -85,10 +85,10 @@ discription:
 1. 구글을 활용하면 못할 것이 없다.
 2. 최대한 찾아보는 습관 가지기.
 3. 검색은 영문이 유리하다.
-    1) 영문 문서를 두려워하지 않기(번역기!)
+   1. 영문 문서를 두려워하지 않기(번역기!)
 4. 공식 문서나 튜토리얼 문서를 잘 확인하자
-    1) [https://developer.mozilla.org/ko/docs/Web/HTML/Element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
-    2) [출처 : https://www.w3schools.com/](https://www.w3schools.com/)
+   1. [https://developer.mozilla.org/ko/docs/Web/HTML/Element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
+   2. [출처 : https://www.w3schools.com/](https://www.w3schools.com/)
 5. 배운 것을 기록해두자.
 
 > html 학습 팁 // 구글 검색 시 `html input mdn` 과 같이 검색하면 공식문서에서 해당 태그를 바로 볼 수 있다.
