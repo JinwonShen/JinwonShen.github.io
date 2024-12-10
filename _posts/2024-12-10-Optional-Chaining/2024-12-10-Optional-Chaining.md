@@ -38,6 +38,8 @@ const user = null;
 console.log(user?.name); // undefined
 ```
 
+<br>
+
 - 따라하기
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="vEBKedX" data-pen-title="js/Optional Chaining(선택적 체이닝)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
