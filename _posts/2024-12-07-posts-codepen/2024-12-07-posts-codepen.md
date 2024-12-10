@@ -33,7 +33,7 @@ discription:
 코드펜의 메인 페이지로 좌측 사이드바에서 팔로우, 트렌딩, 챌린지 등 개발자 분들이 공유한 코드들을 찾아보고 사용해볼 수 있다.
 
 <figure>
-<img src="/assets/img/codepen-img-1" alt="codepen main page">
+<img src="/assets/img/codepen-img-1.png" alt="codepen main page">
 <figcaption>코드펜(codepen) 메인 페이지</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ discription:
 아직 프로젝트 경험이 없어 다른 개발자 분들의 소스를 사용해 볼 기회는 없었지만, 주로 강의를 들으면서 테스트해보고 블로그에 임베드 하기위해 사용하는 메뉴다.
 
 <figure>
-<img src="/assets/img/codepen-img-2" alt="codepen main page">
+<img src="/assets/img/codepen-img-2.png" alt="codepen main page">
 <figcaption>코드펜(codepen) 메인 페이지</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ discription:
 내 작업물을 한 눈에 볼 수 있는 페이지
 
 <figure>
-<img src="/assets/img/codepen-img-3" alt="codepen main page">
+<img src="/assets/img/codepen-img-3.png" alt="codepen main page">
 <figcaption>Your Work 페이지</figcaption>
 </figure>
 
@@ -68,14 +68,14 @@ discription:
 새 코드를 작성하고 싶으면 `New Pen`을 클릭해 새 페이지를 만들 수 있다.
 
 <figure>
-<img src="/assets/img/codepen-img-4" alt="New Pen">
+<img src="/assets/img/codepen-img-4.png" alt="New Pen">
 <figcaption>New Pen 새 페이지</figcaption>
 </figure>
 
 페이지의 제목을 설정하고 `html`, `css`, `js`를 `markdown`언어나 `sass/scss` 등 다양한 포맷으로 코드를 확인해 볼 수 있다. 템플릿을 사용하거나 콘솔창을 열어볼 수도 있다.
 
 <figure>
-<img src="/assets/img/codepen-img-5" alt="My Pen">
+<img src="/assets/img/codepen-img-5.png" alt="My Pen">
 <figcaption>내 작업공간</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ discription:
 #### 외부 스크립트
 
 <figure>
-<img src="/assets/img/codepen-img-6" alt="script">
+<img src="/assets/img/codepen-img-6.png" alt="script">
 <figcaption>외부 스크립트 가져오기</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ discription:
 #### 임베드(embed)
 
 <figure>
-<img src="/assets/img/codepen-img-7" alt="Embed">
+<img src="/assets/img/codepen-img-7.png" alt="Embed">
 <figcaption>임베드(embed)기능 활용하기</figcaption>
 </figure>
 
