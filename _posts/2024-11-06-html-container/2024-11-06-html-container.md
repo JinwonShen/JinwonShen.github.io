@@ -25,7 +25,7 @@ discription:
 html `<div>`요소는 흐름 콘텐츠의 일반 컨테이너이다. css를 사용해 어떤 식으로든 스타일을 정하기 전까지는 콘텐츠나 레이아웃에 영향을 미치지 않는다.<br>
 `<span>`은 구문적 내용을 위한 일반적인 인라인 컨테이너로, 본질적으로 아무것도 나타내지 않는다. 스타일링 목적으로 요소를 그룹화하는데 사용할 수 있다. div요소와 매우 흡사하지만 `<div>`는 블록 수준 요소인 반면 `<span>`은 인라인 수준 요소이다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWQLeQN" data-pen-title="div, span" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NWQLeQN">
@@ -44,7 +44,7 @@ html `<div>`요소는 흐름 콘텐츠의 일반 컨테이너이다. css를 사�
 
 html `<header>`는 일반적으로 소개 또는 탐색 보조 도구의 그룹을 나타낸다. 여기에는 몇 가지 제목 요소가 포함될 수 있지만, 로고 검색양식, 작성자 이름 및 기타 요소도 포함될 수 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWQLorb" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NWQLorb">
@@ -59,7 +59,7 @@ html `<header>`는 일반적으로 소개 또는 탐색 보조 도구의 그룹�
 
 html요소 `<nav>`는 현재 문서 내부 또는 다른 문서의 탐색 링크를 제공하는 것이 목적인 페이지 섹션을 나타낸다. 일반적으로 메뉴, 목차, 인덱스 등이 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ExqerNe" data-pen-title="nav" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ExqerNe">
@@ -74,7 +74,7 @@ html요소 `<nav>`는 현재 문서 내부 또는 다른 문서의 탐색 링크
 
 html 요소 `<aside>`는 문서의 주요 내용과 간접적으로만 관련이 있는 문서의 일부를 나타낸다. `<aside>`는 종종 사이드바 또는 콜아웃 상자로 표시된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMwLr" data-pen-title="aside" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMwLr">
@@ -89,7 +89,7 @@ html 요소 `<aside>`는 문서의 주요 내용과 간접적으로만 관련이
 
 html 요소 `<main>`은 문서의 주요 내용을 나타낸다. 주요 내용 영역은 문서의 중심 주제 또는 애플리케이션의 중심 기능과 직접 관련이 있거나 이를 확장하는 내용으로 구성된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxvaMrm" data-pen-title="main" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xxvaMrm">
@@ -110,7 +110,7 @@ html 요소 `<main>`은 문서의 주요 내용을 나타낸다. 주요 내용 �
 
 html `<article>`요소는 문서, 페이지, 애플리케이션 또는 사이트에서 독립적으로 배포되거나 재사용될 수 있도록 의도된 자체 포함 구성을 나타낸다. 예를 들어 게시물, 잡지 또는 신문 기사, 블로그 항목, 제품 카드, 사용자가 제출한 댓글, 대화형 위젯 또는 가젯 또는 기타 독립적인 콘텐츠 항목이 있습니다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWNqLOV" data-pen-title="article" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MWNqLOV">
@@ -130,7 +130,7 @@ html `<article>`요소는 문서, 페이지, 애플리케이션 또는 사이트
 
 html `<section>`요소는 문서의 일반적인 독립형 섹션을 나타내며, 이를 나타낼 더 구체적인 의미적 요소가 없다. 섹션에는 항상 제목이 있어야 하며, 예외는 거의 없다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYgJbZO" data-pen-title="section" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/zYgJbZO">

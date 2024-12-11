@@ -17,7 +17,7 @@ discription:
 
 html 요소는 6단계의 구획 제목을 나타냅니다. 구획 단계는 `<h1>`이 가장 높고 `<h6>`이 가장 낮습니다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNVgKaP" data-pen-title="text - element" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WNVgKaP">
@@ -40,7 +40,7 @@ html 요소는 6단계의 구획 제목을 나타냅니다. 구획 단계는 `<h
 
 html `<p>` 요소는 하나의 문단을 나타낸다. 문단은 블록 레벨 요소이며, 자신의 닫는 태그 `</p>` 이전에 다른 블록 레벨 태그가 분석되면 자동으로 닫힌다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvVExQQ" data-pen-title="p" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/wvVExQQ">
@@ -67,7 +67,7 @@ html `<blockquote>` 요소는 안쪽의 텍스트가 긴 인용문임을 나타�
 
 html `<pre>` 요소는 미리 서식을 지정한 텍스트로 나타내며, html에 작성한 내용 그대로 표현한다. 텍스트는 보통 고정폭 글꼴을 사용해 렌더링하며, 요소 내 공백문자를 그대로 유지한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxvaJmR" data-pen-title="pre" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xxvaJmR">
@@ -82,7 +82,7 @@ html `<pre>` 요소는 미리 서식을 지정한 텍스트로 나타내며, htm
 
 html `<figure>` 요소는 독립적인 콘텐츠를 표현한다. `<figcaption>` 요소를 사용해 설명을 붙일 수 있다. 피규어, 설명, 콘텐츠는 하나의 단위로 참조
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ZEgMjwY" data-pen-title="figure" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZEgMjwY">
@@ -105,7 +105,7 @@ html `<abbr>` 요소는 준말 또는 머리글자를 나타낸다. 선택 속�
 
 > 마우스 커서를 올렸을 때 나타나는 툴팁 확인
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYqLjop" data-pen-title="abbr" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/eYqLjop">
@@ -122,7 +122,7 @@ html `<b>` 요소는 독자의 주의를 요소의 콘텐츠로 끌기 위한 �
 
 > 둘 다 굵은 글씨인 것으로 눈으로 보여지는 것에는 다른 점을 찾기 힘들다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRVXBaG" data-pen-title="b, strong" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/GRVXBaG">
@@ -139,7 +139,7 @@ html `<i>` 요소는 텍스트에서 어떤 이유로 주위와 구분해야 하
 <br>
 `<em>` 요소 또한 텍스트의 강세를 나타낸다. 단순히 기울임 꼴이 필요해서 `<i>` `<em>` 사용해선 안 된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjgaBgN" data-pen-title="i, em" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/JjgaBgN">
@@ -154,7 +154,7 @@ html `<i>` 요소는 텍스트에서 어떤 이유로 주위와 구분해야 하
 
 html `<mark>` 요소는 현재 맥락에 관련이 깊거나 중요해 표시 또는 하이라이트한 부분을 나타낸다. `<small>` 요소는 덧붙이는 글이나, 저작권과 법률 표기 등의 작은 텍스트를 나타낸다. html `<sub>` 요소는 활자 배치를 아래 첨자로 해야 하는 인라인 텍스트를 지정한다. `<sup>` 태그는 `<sub>` 요소와 반대로 윗첨자(superscript) 텍스트를 표현할 때 사용한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abeaQzo" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/abeaQzo">
@@ -171,7 +171,7 @@ html `<del>` 요소는 문서에서 제거된 텍스트의 범위를 나타낸�
 `<code>` 요소는 짧은 코드 조각을 나타내는 스타일을 사용해 자신의 콘텐츠를 표시한다. 기본 스타일은 사용자 에이전트의 고정 폭 글씨체.
 `<kbd>` 요소는 키도브 입력, 음성 입력 등 임의의 장치를 사용한 사용자의 입력을 나타낸다. 관례에 따라 고정폭 글꼴로 표시하지만 강제는 아니다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VwoGVLj" data-pen-title="del, ins, code, kbd" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/VwoGVLj">
@@ -227,7 +227,7 @@ html `<a>` 요소(앵커 요소)는 `<href>` 특성을 통해 다른 페이지�
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwXYqVg" data-pen-title="a href" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/RwXYqVg">

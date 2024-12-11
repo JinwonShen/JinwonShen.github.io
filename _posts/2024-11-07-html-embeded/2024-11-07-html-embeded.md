@@ -22,7 +22,7 @@ discription:
 
 html `<img>`요소는 문서에 이미지는 포함한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGXmONQ" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bGXmONQ">
@@ -89,7 +89,7 @@ svg는 다양한 크기로 정확하게 그려야 하는 이미지의 경우 여
 
 html 요소 `video`는 비디오 재생을 지원하는 미디어 플레이어를 문서에 내장한다. 오디오 콘텐츠에도 사용할 수 있지만, `audio`요소보다 더 적절한 사용자 경험을 제공할 수 있다.
 
-- 따라하기(확장자를 봐주세요.)
+**따라하기(확장자를 봐주세요.)**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNKQvGm" data-pen-title="img (srcset, sizes)" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/oNKQvGm">
@@ -120,7 +120,7 @@ html 요소 `video`는 비디오 재생을 지원하는 미디어 플레이어�
 
 html `audio` 요소는 문서에 사운드 콘텐츠를 포함하는 데 사요오딘다. 속성 또는 요소를 사용해 표현되는 하나 이상의 오디오 소스를 포함할 수 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKOrPoq" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KKOrPoq">
@@ -145,7 +145,7 @@ html `audio` 요소는 문서에 사운드 콘텐츠를 포함하는 데 사요�
 
 `<img>` 요소와 달리 `<canvas>` 요소에는 닫는 태그`</canvas>` 가 필요하다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abeQoKR" data-pen-title="canvas" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/abeQoKR">
@@ -164,7 +164,7 @@ js - javascript 코드에서 다음을 호출해 `HTMLCanvasElement.getContext()
 
 html `<iframe>` 요소는 중첩된 브라우징 컨텍스트를 나타내며 현재 페이지에 다른 html 페이지를 포함한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWQEKOd" data-pen-title="iframe" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NWQEKOd">
