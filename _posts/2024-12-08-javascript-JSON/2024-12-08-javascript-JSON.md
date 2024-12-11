@@ -51,7 +51,7 @@ const user = {
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="PwYNadQ" data-pen-title="js/JSON" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/PwYNadQ">

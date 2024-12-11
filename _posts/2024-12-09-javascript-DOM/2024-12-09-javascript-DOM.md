@@ -57,7 +57,7 @@ discription:
 
 노드의 하위 객체로 요소를 의미한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="MYgyXPd" data-pen-title="js/DOM &amp;amp; Node &amp;amp; Element" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MYgyXPd">
@@ -74,7 +74,7 @@ discription:
 
 선택자로 검색한 요소를 하나 반환한다. 만약 검색자가 없으면, `null`을 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNJOK" data-pen-title="js/document.querySelector(선택자)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKNJOK">
@@ -89,7 +89,7 @@ discription:
 
 선택자로 검색한 모든 요소를 `NodeList` 객체로 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKbGg" data-pen-title="js/document.querySelectorAll(선택자)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKbGg">
@@ -106,7 +106,7 @@ NodeList 객체는 유사배열이며, `.forEach()` 메소드는 내장되어 �
 
 html `id` 속성(Attributes) 값으로 검색한 요소를 하나 반환한다. 만약 검색 결과가 없다면, `null` 을 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZvvo" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qEWZvvo">
@@ -121,7 +121,7 @@ html `id` 속성(Attributes) 값으로 검색한 요소를 하나 반환한다. 
 
 노드의 부모요소를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNJmP" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKNJmP">
@@ -136,7 +136,7 @@ html `id` 속성(Attributes) 값으로 검색한 요소를 하나 반환한다. 
 
 요소의 이전 형제 요소/다음 형제 요소를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="bNbpZyG" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bNbpZyG">
@@ -155,7 +155,7 @@ html `id` 속성(Attributes) 값으로 검색한 요소를 하나 반환한다. 
 
 요소의 첫 번째/마지막 자식 요소를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="wBwGOVv" data-pen-title="js/요소.children &amp;amp; firstElementChild &amp;amp; lastElementChild" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/wBwGOVv">
@@ -172,7 +172,7 @@ html `id` 속성(Attributes) 값으로 검색한 요소를 하나 반환한다. 
 
 html 요소를 메모리상에 생성해 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="jENqRdG" data-pen-title="js/createElement(태그이름)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/jENqRdG">
@@ -195,7 +195,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 하나 이상의 노드를 마지막 자식으로 삽입하고 삽입한 노드를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKEep" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKEep">
@@ -210,7 +210,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 요소를 제거한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyBXL" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyBXL">
@@ -225,7 +225,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 주어진 노드가 대상 노드를 포함한 후손인지 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="MYgyRNX" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MYgyRNX">
@@ -240,7 +240,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 노드의 모든 텍스트를 확인(get)하거나 지정(set)한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzymzL" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzymzL">
@@ -255,7 +255,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 요소의 내부 html을 확인(Get)하거나 지정(Set)한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="VYZaOwL" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/VYZaOwL">
@@ -270,7 +270,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 요소의 `data-` 속성을 확인(Get)하거나 지정(Set)한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="dPbMEMo" data-pen-title="js/요소.dataset" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/dPbMEMo">
@@ -279,7 +279,7 @@ html 요소를 메모리상에 생성해 반환한다.
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-- 따라하기(다른유형의 .dataset)
+**따라하기(다른유형의 .dataset)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="GgKZaNr" data-pen-title="js/요소.dataset(2)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/GgKZaNr">
@@ -294,7 +294,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 요소의 `class` 속성을 제어한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KwPzLZG" data-pen-title="js/classList &amp;amp; .add() &amp;amp; .remove() &amp;amp; .toggle() &amp;amp; .contains()" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KwPzLZG">
@@ -309,7 +309,7 @@ html 요소를 메모리상에 생성해 반환한다.
 
 요소의 `style` 속성을 확인(Get)하거나 지정(Set)한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="zxOqQWO" data-pen-title="js/요소.style" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/sjinwon/pen/zxOqQWO">
@@ -318,7 +318,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-- 따라하기(다른유형의)
+**따라하기(다른유형의)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNZbJ" data-pen-title="js/요소.style(다른유형의)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKNZbJ">
@@ -339,7 +339,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 `요소.removeAttribute(속성)` - 요소의 속성을 제거한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="WbewqpB" data-pen-title="js/요소.getAttribute(속성) &amp;amp; .setAttribute(속성, 값) &amp;amp; .hasAttribute(속성) &amp;amp; .removeAttribute(속성)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WbewqpB">
@@ -362,7 +362,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 `window.scrollY` - 화면에서 스크롤된 Y축의 위치를 얻는다.
 
-- 따라하기
+**따라하기**
 
 <br>
 
@@ -393,7 +393,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 });
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="VYZaJGd" data-pen-title="js/window.innerWidth / window.innerHeight / window.scrollX / window.scrollY(2)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/VYZaJGd">
@@ -418,7 +418,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 `요소.scrollHeight` - 테두리 선을 제외한 요소의 스크롤 영역 높이를 얻는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ZYzWdmB" data-pen-title="js/요소.offsetWidth(Height) / 요소.clientWidth(Height) / 요소.scrollWidth(Height)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZYzWdmB">

@@ -29,7 +29,7 @@ discription:
 
 배열의 길이(숫자)를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="bNbpvQG" data-pen-title="js/array(built-in-object)/.length()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bNbpvQG">
@@ -44,7 +44,7 @@ discription:
 
 배열을 인덱싱하며, 음수를 사용하면 뒤에서부터 인덱싱한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyLQb" data-pen-title="js/array(built-in-object)/.at()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyLQb">
@@ -59,7 +59,7 @@ discription:
 
 배열에서 주어진 배열을 병합해 새로운 배열을 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="xbKVWQp" data-pen-title="js/array(built-in-object)/.concat()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xbKVWQp">
@@ -74,7 +74,7 @@ discription:
 
 배열의 모든 요소가(개별로) 콜백 테스트를 통과하는지 확인한다. 만약 테스트가 하나라도 실패한다면, 이후 테스트는 진행하지 않고 `false`를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ogvxqQy" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ogvxqQy">
@@ -89,7 +89,7 @@ discription:
 
 배열에서 콜백 테스트를 통과하는 모든 요소로 새로운 배열을 만들어 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="LEPNdqr" data-pen-title="js/array(built-in-object)/.filter()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/LEPNdqr">
@@ -104,7 +104,7 @@ discription:
 
 배열에서 콜백 테스트를 처음으로 통과하는 요소를 반환한다. 처음 테스트가 통과하면, 이후 테스트는 진행하지 않는다. 모든 테스트가 실패하면, `undefined`를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="GgKZxzL" data-pen-title="js/array(built-in-object)/.find()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/GgKZxzL">
@@ -119,7 +119,7 @@ discription:
 
 배열에서 콜백 테스트를 처음으로 통과하는 요소의 인덱스를 반환한다. 만약 테스트를 통과하면 이후 테스트는 진행하지 않는다. 만약 모든 테스트가 실패하면, `-1`을 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNmoy" data-pen-title="js/array(built-in-object)/.findIndex()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QwLNmoy">
@@ -134,7 +134,7 @@ discription:
 
 배열의 각 요소에 대해 콜백을 호출한다. 만약 배열이 비어있다면, 아무런 동작도 하지 않는다. 만약 반복을 종료하고 싶다면, `for` 반복문을 사용해야 한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="PwYNRLr" data-pen-title="js/array(built-in-object)/.forEach()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/PwYNRLr">
@@ -149,7 +149,7 @@ discription:
 
 배열에서 특정 요소가 포함되어 있는지 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyVJR" data-pen-title="js/array(built-in-object)/.includes()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyVJR">
@@ -164,7 +164,7 @@ discription:
 
 배열의 모든 요소를 연결해 하나의 문자열로 만든다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="MYgyGwo" data-pen-title="js/array(built-in-object)/.join()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MYgyGwo">
@@ -179,7 +179,7 @@ discription:
 
 배열의 모든 요소에 대해 각 콜백을 호출하고 반환된 결과를 새로운 배열로 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KwPzRda" data-pen-title="js/array(built-in-object)/.map()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KwPzRda">
@@ -196,7 +196,7 @@ discription:
 
 배열의 원본이 변경된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="JoPXvYB" data-pen-title="js/array(built-in-object)/.push()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/JoPXvYB">
@@ -211,7 +211,7 @@ discription:
 
 배열의 각 요소에 대해 콜백을 호출하고, 각 콜백의 반환 값을 다음 콜백으로 전달해 마지막 반환 값을 최종 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="dPbMeGw" data-pen-title="js/array(built-in-object)/.reduce()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/dPbMeGw">
@@ -228,7 +228,7 @@ discription:
 
 배열의 원본이 변경된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyVEP" data-pen-title="js/array(built-in-object)/.reverse()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyVEP">
@@ -243,7 +243,7 @@ discription:
 
 배열의 일부를 추출해 새로운 배열로 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="dPbMepa" data-pen-title="js/array(built-in-object)/.slice()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/dPbMepa">
@@ -258,7 +258,7 @@ discription:
 
 배열의 요소 중 콜백 테스트를 통과하는 요소가 하나라도 있는지 확인한다. 만약 테스트가 통과하면 이후 테스트는 진행하지 않는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyVNP" data-pen-title="js/array(built-in-object)/.some()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyVNP">
@@ -275,7 +275,7 @@ discription:
 
 배열의 원본이 변경된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="dPbMeOr" data-pen-title="js/array(built-in-object)/.sort()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/dPbMeOr">
@@ -292,7 +292,7 @@ discription:
 
 배열의 원본이 변경된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNrdd" data-pen-title="js/array(built-in-object)/,splice()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QwLNrdd">
@@ -309,7 +309,7 @@ discription:
 
 배열의 원본이 변경된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="emOZrgy" data-pen-title="js/array(built-in-object)/.shift()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/emOZrgy">
@@ -324,7 +324,7 @@ discription:
 
 배열의 메소드의 콜백은 항상 현재 반복의 인덱스를 얻을 수 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="mybPLWb" data-pen-title="js/array(built-in-object)/callBackIndex" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/mybPLWb">
@@ -339,7 +339,7 @@ discription:
 
 배열 데이터인지 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNrpd" data-pen-title="js/array(built-in-object)/.isArray()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QwLNrpd">
@@ -354,7 +354,7 @@ discription:
 
 유사 배열(`array-like`)을 실제 배열로 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="azoNGJj" data-pen-title="js/array(built-in-object)/.from()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/azoNGJj">

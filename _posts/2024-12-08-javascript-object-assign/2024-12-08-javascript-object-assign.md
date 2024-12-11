@@ -19,7 +19,7 @@ discription:
 
 하나 이상의 `출처 객체(source)` 로부터 `대상 객체(target)` 으로 속성을 복사하고 대상 객체를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="OPLNEvQ" data-pen-title="js/object-assign()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/OPLNEvQ">
@@ -36,7 +36,7 @@ discription:
 
 순서는 보장하지 않는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KwPzeRb" data-pen-title="js/object-keys()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KwPzeRb">
@@ -53,7 +53,7 @@ discription:
 
 순서는 보장하지 않는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="RNbaJJg" data-pen-title="js/object-values()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/RNbaJJg">

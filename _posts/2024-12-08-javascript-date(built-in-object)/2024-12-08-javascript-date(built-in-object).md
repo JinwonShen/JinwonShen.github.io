@@ -22,7 +22,7 @@ discription:
 
 `new`라는 키워드와 함께 호출하는 함수(클리스)를 `생성자 함수`라고 한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="pvzyLPv" data-pen-title="js/Date(built-in-object)/.new Date()/get-" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/pvzyLPv">
@@ -40,7 +40,7 @@ discription:
 
 유닉스 타임이란, 1970.01.01 00:00:00 시간을 의미한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNmgL" data-pen-title="js/Date(built-in-object)/.getTime() &amp;amp; Date.now()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QwLNmgL">

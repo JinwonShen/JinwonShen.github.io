@@ -18,7 +18,7 @@ discription:
 
 변수(Variable)란, 데이터(값)의 이름을 지정한 것으로 이름이 있으면, 그 이름으로 언제든지 데이터를 재사용 할 수 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKLKj" data-pen-title="const, let" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKLKj">

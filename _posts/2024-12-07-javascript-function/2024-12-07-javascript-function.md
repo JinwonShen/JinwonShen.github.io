@@ -21,7 +21,7 @@ discription:
 
 함수(function)란, 어떤 작업을 수행하기 위해 필요한 여러 코드의 집합으로, 코드를 추상화하고 재사용성을 확보한다. 이 함수를 자바스크립트에서는 하나의 데이터 종류로 취급한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="EaYKyGo" data-pen-title="function" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/EaYKyGo">
@@ -51,7 +51,7 @@ console.log(hi());
 console.log(typeof hi());
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKQVV" data-pen-title="js/function-return" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKQVV">
@@ -279,7 +279,7 @@ const obj = {
 
 <br>
 
-- 따라하기(function schedule)
+**따라하기(function schedule)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="wBwGoEx" data-pen-title="js/function-schedule" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/wBwGoEx">

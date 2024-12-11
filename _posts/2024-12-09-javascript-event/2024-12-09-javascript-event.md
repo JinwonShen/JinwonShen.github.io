@@ -27,7 +27,7 @@ discription:
 
 대상에서 `청취(Listen)`할 이벤트 종류와 이벤트가 발생했을 때 호출할 `콜백(Handler)`을 등록한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KwPzOym" data-pen-title="js/event" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KwPzOym">
@@ -42,7 +42,7 @@ discription:
 
 대상에 등록했던 이벤트 핸들러를 제거한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ZYzOzGM" data-pen-title="js/event/대상.removeEventListener()" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ZYzOzGM">
@@ -57,7 +57,7 @@ discription:
 
 핸들러의 첫 매개변수로, 발생한 이벤트의 정보를 가진 객체를 전달한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="wBwWwWq" data-pen-title="js/event/.addEventListener(이벤트 종류,  핸들러), 이벤트 객체" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/wBwWwWq">
@@ -72,7 +72,7 @@ discription:
 
 이벤트의 기본 동작을 방지한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKrKdX" data-pen-title="js/event/preventDefault()" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKrKdX">
@@ -87,7 +87,7 @@ discription:
 
 하위 요소에서 상위 요소로의 이벤트 전파(버블)를 정지한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="MYgewNM" data-pen-title="js/event/event.stopPropagation()" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/MYgewNM">
@@ -110,7 +110,7 @@ discription:
 캡쳐링(수동) : 상 -> 하
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="dPbXWOo" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/dPbXWOo">
@@ -125,7 +125,7 @@ discription:
 
 브라우저 입력기(IME)의 CJK(중국어, 일본어, 한글) 문자 구성 중에는 이벤트 핸들러가 2번 실행될 수 있는데, `event.isComposing` 속성을 통해 그 여부를 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBzRRd" data-pen-title="js/event/event.isComposing" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBzRRd">
@@ -154,7 +154,7 @@ discription:
 
 `wheel` - 휠 버튼이 회전할 때
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="JoPKNVG" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/JoPKNVG">
@@ -173,7 +173,7 @@ discription:
 
 일반적으로는 `keydown`을 사용하나, 특정 상황에서 키를 뗄 때 이벤트가 필요한 이벤트가 있으면 `keyup` 을 사용한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="azoZwgL" data-pen-title="js/event/키보드 이벤트" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/azoZwgL">
@@ -198,7 +198,7 @@ discription:
 
 `reset` - 타입이 `reset` 인 요소를 선택했을 떄 `reset` 이벤트 발생
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="XJrKarg" data-pen-title="js/form event(양식이벤트)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/XJrKarg">

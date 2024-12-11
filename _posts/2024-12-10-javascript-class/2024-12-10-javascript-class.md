@@ -27,7 +27,7 @@ class Polygon {
 }
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="RNbRyyX" data-pen-title="js/class/프로토타입" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/RNbRyyX">
@@ -44,7 +44,7 @@ class Polygon {
 
 `set` 이라는 키워드가 붙어있는 메소드이고 마치 속성처럼 사용하되 할당연산자로 값을 지정할 때 호출되는 함수다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ogvLdRR" data-pen-title="js/class/Getter &amp;amp; Setter" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ogvLdRR">
@@ -59,7 +59,7 @@ class Polygon {
 
 정적 메소드는 주로 클래스의 유틸리티 (보조) 함수를 만들 때 사용한다. 인스턴스와는 연결되지 않으며, 클래스 자체에서 호출해야 한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="jENrKoQ" data-pen-title="Untitled" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/jENrKoQ">
@@ -95,7 +95,7 @@ console.log(a);
 console.log(b);
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="WbexKZW" data-pen-title="js/class/Inheritance(상속) 다른유형의" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WbexKZW">
