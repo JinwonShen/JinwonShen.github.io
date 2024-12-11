@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "(MAC) 새로운 mac 환경 세팅하기"
-date:   2024-06-30 21:26:00 +09:00
+title: "(MAC) 새로운 mac 환경 세팅하기"
+date: 2024-06-30 21:26:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -24,15 +24,19 @@ git config --global user.name "JinwonShen"
 git config --global user.email "bosv031999@gmail.com"
 ```
 
+<br>
+
 ### 2. ssh-key 생성
 
-- ssh-key 생성하기 
+- ssh-key 생성하기
 
 터미널에서 다음 명령어를 입력해 ssh 키를 생성한다. 이때 메일 주소는 gifhub 계정에 등록된 메일로 입력해야 한다.
 
 ```cmd
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+
+<br>
 
 키를 생성하는 동안 엔터키를 누르면 기본값으로 설정됩니다. 생성된 키는 기본적으로 ~/.ssh/id_rsa에 저장됩니다.
 
@@ -56,6 +60,8 @@ SSH 키를 에이전트를 추가합니다.
 ssh-add ~/.ssh/id_rsa
 ```
 
+<br>
+
 - SSH 공개 키 복사
 
 공개 키를 클립보드에 복사합니다.
@@ -64,23 +70,26 @@ ssh-add ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
+<br>
+
 위 명령어가 동작하지 않는다면, `cat ~/.ssh/id_rsa.pub` 명령어를 사용해 터미널에 표시하고, 해당 키를 수동으로 복사한다.
 
 <br>
 
 - GitHub에 SSH 공개 키 등록:
-GitHub 웹사이트에서 우측 상단의 사용자 아이콘을 클릭하고, Settings로 이동합니다.
-좌측 메뉴에서 "SSH and GPG keys"를 선택합니다.
-"New SSH key"를 클릭하고, 복사한 공개 키를 "Key" 필드에 붙여넣습니다.
+  GitHub 웹사이트에서 우측 상단의 사용자 아이콘을 클릭하고, Settings로 이동합니다.
+  좌측 메뉴에서 "SSH and GPG keys"를 선택합니다.
+  "New SSH key"를 클릭하고, 복사한 공개 키를 "Key" 필드에 붙여넣습니다.
 
 <br>
 
 ### 3. git clone
 
 - SSH로 Git Repository 복제: <br>
-이제 SSH를 사용하여 저장소를 복제할 수 있습니다. 저장소 URL은 다음과 같습니다.
+  이제 SSH를 사용하여 저장소를 복제할 수 있습니다. 저장소 URL은 다음과 같습니다.
 
 ```cmd
 git clone git@github.com:사용자이름/저장소.git
 ```
 
+<br>
