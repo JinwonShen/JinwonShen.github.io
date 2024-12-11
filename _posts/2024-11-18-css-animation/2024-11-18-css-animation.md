@@ -72,6 +72,8 @@ discription:
 }
 ```
 
+<br>
+
 - 여기 `top` 속성은 0%, 30%, 100% 키 프레임을 이용하여 애니메이션 되며, `left` 속성은 0%, 68%, 72%, 100% 키 프레임을 사용해 애니메이션 된다.
 
 <br>
@@ -179,3 +181,5 @@ animation: 3s linear 1s slidein;
 /* 애니메이션 두 개 */
 animation: 3s linear slidein, 3s ease-out 5s slideout;
 ```
+
+<br>

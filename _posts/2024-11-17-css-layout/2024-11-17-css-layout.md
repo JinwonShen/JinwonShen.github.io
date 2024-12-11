@@ -248,6 +248,8 @@ overflow: initial;
 overflow: unset;
 ```
 
+<br>
+
 ## z-index
 
 css `z-index` 속성은 위치 지정 요소와, 그 자손 또는 하위 플렉스 아이템의 z축 순서를 지정한다. 더 큰 `z-index`값을 가진 요소가 작은 값의 요소 위를 덮는다.

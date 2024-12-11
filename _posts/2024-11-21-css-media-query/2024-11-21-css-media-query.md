@@ -42,6 +42,8 @@ discription:
 }
 ```
 
+<br>
+
 ### breakpoint
 
 #### 모바일 우선(mobile first) breakpoint

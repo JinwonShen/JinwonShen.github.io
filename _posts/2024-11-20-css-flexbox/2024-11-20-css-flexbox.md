@@ -46,6 +46,8 @@ discription:
 </div>
 ```
 
+<br>
+
 - `flex container` : 부모요소
 - `flex item` : 자식요소
 - `main axis` : 주축(왼쪽 -> 오른쪽)
