@@ -68,6 +68,8 @@ console.log(Number({}));
 console.log(Number([]));
 ```
 
+<br>
+
 **따라하기 (parseInt)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZxzR" data-pen-title="js/number(built-in-object)/.parseInt()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

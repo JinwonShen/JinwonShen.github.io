@@ -115,6 +115,8 @@ switch (prodItem) {
 }
 ```
 
+<br>
+
 **따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNGQJ" data-pen-title="js/switch" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -193,6 +195,8 @@ for (const key in user) {
 }
 ```
 
+<br>
+
 **따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNbYL" data-pen-title="js/for" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -232,6 +236,8 @@ for (let i = 0; i <= 10; i += 1) {
 
 // for, while은 취향차이 혹은 상황에 맞게 사용할 수 있다.
 ```
+
+<br>
 
 **따라하기**
 

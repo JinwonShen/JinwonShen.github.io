@@ -393,6 +393,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 });
 ```
 
+<br>
+
 **따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="VYZaJGd" data-pen-title="js/window.innerWidth / window.innerHeight / window.scrollX / window.scrollY(2)" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

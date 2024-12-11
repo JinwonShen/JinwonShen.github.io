@@ -27,6 +27,8 @@ class Polygon {
 }
 ```
 
+<br>
+
 **따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="RNbRyyX" data-pen-title="js/class/프로토타입" data-preview="true" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -94,6 +96,8 @@ const b = new B(1, 2);
 console.log(a);
 console.log(b);
 ```
+
+<br>
 
 **따라하기**
 

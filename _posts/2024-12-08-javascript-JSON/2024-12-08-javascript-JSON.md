@@ -45,6 +45,8 @@ const user = {
 }
 ```
 
+<br>
+
 - json으로 같은 객페 데이터를 만들 때 위와 같이 만들 수 있다.
 - test.json 파일은 하나의 객체를 가지고 있다. 라고 판단하면 된다. ex)test.json
 - undefined, function 함수는 json에서 지원하지 않는다.

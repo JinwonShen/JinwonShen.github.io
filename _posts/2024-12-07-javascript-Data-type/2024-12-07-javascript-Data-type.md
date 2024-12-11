@@ -57,3 +57,5 @@ console.log(data.array.constructor === Array);
 console.log(data.object.constructor === Object);
 console.log(data.function.constructor === Function);
 ```
+
+<br>

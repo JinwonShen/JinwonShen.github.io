@@ -28,6 +28,8 @@ const [a, b, c] = numbers;
 console.log(a, b, c); // 1 2 3
 ```
 
+<br>
+
 ### 배열 데이터에서 구조 분해 할당 : 선언과 분리
 
 ```js
@@ -41,6 +43,8 @@ if (numbers.length) {
 console.log(a, b, c); // 1 2 3
 ```
 
+<br>
+
 ### 배열 데이터에서 구조 분해 할당 : 기본값 지정
 
 ```js
@@ -50,6 +54,8 @@ const [a = 0, b, c] = numbers
 console.log(a, b, c) 7 undefined 3
 ```
 
+<br>
+
 ### 배열 데이터에서 구조 분해 할당 : 반환 값 무시
 
 ```js
@@ -58,6 +64,8 @@ const [, , c] = numbers;
 // 할당될 수 있는 변수가 없어 순서가 일치하는 곳에 할당된다.
 console.log(c); // 3
 ```
+
+<br>
 
 ### 배열 데이터에서 구조 분해 할당 : 나머지 할당
 
@@ -90,6 +98,8 @@ console.log(age);
 console.log(isValid);
 ```
 
+<br>
+
 ### 객체 데이터에서 구조 분해 할당 : 선언과 분리
 
 ```js
@@ -111,6 +121,8 @@ if (user) {
 console.log(name, age, isValid);
 ```
 
+<br>
+
 ### 객체 데이터에서 구조 분해 할당 : 기본값 지정
 
 ```js
@@ -124,6 +136,8 @@ const { isValid = false } = user;
 
 console.log(isValid); // false
 ```
+
+<br>
 
 ### 객체 데이터에서 구조 분해 할당 : 변수명 변경
 
@@ -140,6 +154,8 @@ const { name: n, age: a, isValid: v } = user;
 console.log(n, a, v); // Neo 22 true
 console.log(name, age, isValid); // error
 ```
+
+<br>
 
 ### 객체 데이터에서 구조 분해 할당 : 기본값 + 변수명 변경
 
@@ -158,6 +174,8 @@ console.log(n, a, v); // Neo 22 false
 console.log(name, age, isValid); // error
 ```
 
+<br>
+
 ### 객체 데이터에서 구조 분해 할당 : 나머지 할당
 
 ```js
@@ -171,3 +189,5 @@ const { age, ...rest } = user;
 
 console.log(age, rest); // 22 { name: Neo, isValid: true }
 ```
+
+<br>

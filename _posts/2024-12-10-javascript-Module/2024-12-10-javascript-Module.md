@@ -25,6 +25,8 @@ js파일 최상단에 위치해야 한다.
 import {} from "./module.js";
 ```
 
+<br>
+
 ## 내보내기(export)
 
 #### 기본 내보내기(Default export)
@@ -35,6 +37,8 @@ import {} from "./module.js";
 ```js
 export default 데이터;
 ```
+
+<br>
 
 #### 이름 내보내기(Named export)
 
@@ -59,6 +63,8 @@ export { a, b, c, D };
 
 <br>
 
+<br>
+
 #### 기본 가져오기(Default import)
 
 ```js
@@ -66,12 +72,16 @@ export { a, b, c, D };
 import abc from "./module.js";
 ```
 
+<br>
+
 #### 이름 가져오기(Named import)
 
 ```js
 // 이름 내보내기는 기존에 지정된 이름을 {} 중괄호로 입력해 가져온다.
 import abc, { a, b, c, D } from "./module.js";
 ```
+
+<br>
 
 #### 모두 가져오기
 
@@ -97,6 +107,8 @@ import * as abc from "./module.js";
 </head>
 ```
 
+<br>
+
 ### main.js
 
 ```js
@@ -116,6 +128,8 @@ addFruits("Mango");
 console.log(fruits);
 ```
 
+<br>
+
 ### calculator.js
 
 ```js
@@ -129,6 +143,8 @@ export function sub(a, b) {
 }
 ```
 
+<br>
+
 ### sub.js
 
 ```js
@@ -138,3 +154,5 @@ import { add } from "./core/calculator.js";
 console.log(add(8, 7));
 console.log(add(15, 22));
 ```
+
+<br>

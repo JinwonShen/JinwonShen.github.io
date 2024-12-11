@@ -37,6 +37,8 @@ const n2 = 9;
 console.log(n1 < n2);
 ```
 
+<br>
+
 ## null
 
 `null` 데이터는 존재하지 않는(nothing), 비어 있는(empty), 알 수 없는(unknown) 값을 명시적으로 나타낸다.

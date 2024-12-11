@@ -51,6 +51,8 @@ console.log(hi());
 console.log(typeof hi());
 ```
 
+<br>
+
 **따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKQVV" data-pen-title="js/function-return" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -83,6 +85,8 @@ h1El.addEventListener("click", function () {
   console.log(h1El.textContent);
 });
 ```
+
+<br>
 
 <br>
 
@@ -136,6 +140,8 @@ const getMovies = function () {
   // return movies
 };
 ```
+
+<br>
 
 ## 인수(Argument)와 매개변수(Parameter)
 
