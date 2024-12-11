@@ -17,7 +17,7 @@ discription:
 
 객체에 포함된 각 데이터를 속성(`Property`)라고 부르고, 그 데이터가 함수인 경우에는, 메소드(`method`)라고 부른다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="xbKVxKq" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xbKVxKq">

@@ -24,7 +24,7 @@ discription:
 
 주어진 숫자의 절댓값을 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKrLv" data-pen-title="js/math(built-in-object)/.abs()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKrLv">
@@ -43,7 +43,7 @@ discription:
 
 `.round()` 주어진 숫자를 반올림해 정수를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="EaYKENZ" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/EaYKENZ">
@@ -58,7 +58,7 @@ discription:
 
 주어진 숫자 중 가장 큰 숫자 혹은 작은 숫자를 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="bNbpvBJ" data-pen-title="js/math(built-in-object)/.max() &amp;amp; .min()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bNbpvBJ">

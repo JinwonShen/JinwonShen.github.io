@@ -23,7 +23,7 @@ discription:
 
 숫자에서 지정된 문자로 반환한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="xbKVYeO" data-pen-title="js/number(built-in-object)/.toFixed()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xbKVYeO">
@@ -38,7 +38,7 @@ discription:
 
 숫자에서 현지 언어형식으로 바꾼 새로운 문자를 반환한다. 목적에 따라 숫자데이터로 표기할지 문자데이터로 표기할지 선택 가능
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="ByBKYEP" data-pen-title="js/number(built-in-object)/.toLocaleString()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ByBKYEP">
@@ -68,7 +68,7 @@ console.log(Number({}));
 console.log(Number([]));
 ```
 
-- 따라하기 (parseInt)
+**따라하기 (parseInt)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZxzR" data-pen-title="js/number(built-in-object)/.parseInt()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qEWZxzR">
@@ -79,7 +79,7 @@ console.log(Number([]));
 
 <br>
 
-- 따라하기 (parseFloat)
+**따라하기 (parseFloat)**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="LEPNQKW" data-pen-title="js/number(built-in-object)/.parseFloat()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/LEPNQKW">
@@ -94,7 +94,7 @@ console.log(Number([]));
 
 데이터가 정수(숫자 데이터)인지 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="bNbpLPQ" data-pen-title="js/number(built-in-object)/.isInteger()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/bNbpLPQ">
@@ -109,7 +109,7 @@ console.log(Number([]));
 
 데이터가 `NaN`인지 확인한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="raBeJXV" data-pen-title="js/number(built-in-object)/.isNaN()" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/raBeJXV">

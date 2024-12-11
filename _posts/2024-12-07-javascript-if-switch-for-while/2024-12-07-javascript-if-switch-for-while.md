@@ -63,7 +63,7 @@ if (number % 2 === 0) {
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZqpZ" data-pen-title="js/if...else" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qEWZqpZ">
@@ -115,7 +115,7 @@ switch (prodItem) {
 }
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="QwLNGQJ" data-pen-title="js/switch" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QwLNGQJ">
@@ -193,7 +193,7 @@ for (const key in user) {
 }
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="NPKNbYL" data-pen-title="js/for" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/NPKNbYL">
@@ -233,7 +233,7 @@ for (let i = 0; i <= 10; i += 1) {
 // for, while은 취향차이 혹은 상황에 맞게 사용할 수 있다.
 ```
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="qEWZqYN" data-pen-title="js/while" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qEWZqYN">
