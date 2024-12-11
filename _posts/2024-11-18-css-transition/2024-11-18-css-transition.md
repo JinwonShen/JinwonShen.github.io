@@ -57,7 +57,7 @@ transition: all 0.5s ease-out;
 
 `transition-property` CSS 속성은 transition effect 을 적용해야 하는 CSS 속성을 명시한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdNYedL" data-pen-title="transition-" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/mdNYedL">
