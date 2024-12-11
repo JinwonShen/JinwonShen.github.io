@@ -25,7 +25,7 @@ css 속성 `display`는 요소를 블록 또는 인라인 상자로 처리할지
 
 형식적으로, `display`속성은 요소의 내부 및 외부 디스플레이 유형을 설정한다. 외부 유형은 요소의 flow char 참여를 설정하고, 내부 유형은 자식의 레이아웃을 설정한다. 일부 값은 `display`자체 개별 사양에서 완전히 정의된다. 예를 들어 `display: flex` 선언 시 발생하는 내용의 세부 사항은 css Flexible Box Model 사양에서 정의된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLmroeP" data-pen-title="display:inline, block, inline-block" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/yLmroeP">
@@ -136,7 +136,7 @@ float: unset;
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOVyxGM" data-pen-title="float" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/gOVyxGM">
@@ -167,7 +167,7 @@ css `position`속성은 문서 상에 요소를 배치하는 방법을 지정한
 
 상대적으로 배치된 요소는 문서 내 정상적인(normal) 위치에서 주어진 오프셋만큼 떨어지지만, 다른 요소에는 영향을 주지 않는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWePMQO" data-pen-title="상대 위치 지정" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QWePMQO">
@@ -182,7 +182,7 @@ css `position`속성은 문서 상에 요소를 배치하는 방법을 지정한
 
 상대적으로 배치된 요소가 일반적인 문서 흐름에 따르는 것과 달리, 절대적으로 배치된 요소는 흐름에서 제거된다. 따라서 다른 요소는 그 요소가 존재하지 않는 것처럼 배치된다. 절대적으로 배치된 요소는 가장 가까운 위치 지정 조상(즉, `static`이 아닌 가장 가까운 조상)을 기준으로 배치된다. 그런 요소가 존재하지 않는다면, 초기 컨테이닝 블록이 기준이 된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBewXoe" data-pen-title="절대 위치 지정" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/qBewXoe">
@@ -197,7 +197,7 @@ css `position`속성은 문서 상에 요소를 배치하는 방법을 지정한
 
 고정 위치 지정은 절대 위치 지정과 비슷하지만, `fixed`는 요소의 컨테이닝 블록이 뷰포트의 초기 컨테이닝 블록이라는 점에서 다르다.(`transform`, `perspective`,`filter` 속성이 `none`이 아닌 조상이 있다면 그 조상이 컨테이닝 블록이 된다. css transforms spec 참조). 따라서 스크롤에 관계 없이 화면의 특정 지점에 고정되는, "떠다니는"(floating)요소를 생성할 수 있다. "One"상자는 페이지 위에서 80픽셀, 왼쪽에서 10픽셀 떨어진 위치에 고정된다. 스크롤을 하더라도, 뷰포트를 기준으로 같은 위치에 고정된 채로 유지된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxveLjN" data-pen-title="고정 위치 지정" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/xxveLjN">
@@ -252,7 +252,7 @@ overflow: unset;
 
 css `z-index` 속성은 위치 지정 요소와, 그 자손 또는 하위 플렉스 아이템의 z축 순서를 지정한다. 더 큰 `z-index`값을 가진 요소가 작은 값의 요소 위를 덮는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRVLvYN" data-pen-title="z-index" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/GRVLvYN">

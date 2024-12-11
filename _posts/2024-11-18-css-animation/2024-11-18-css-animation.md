@@ -80,7 +80,7 @@ discription:
 
 css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하는 하나 이상의 at-규칙의 이름을 지정한다. 여러 at-규칙은 쉼표로 구분된 이름 목록으로 지정된다. 지정된 이름이 at-규칙과 일치하지 않으면 속성에 애니메이션이 적용되지 않는다. `animation-duration` 은 애니메이션이 한 사이클을 완료하는데 걸리는 시간을 지정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjgqdLX" data-pen-title="animation-name/duration" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/JjgqdLX">
@@ -95,7 +95,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 `animation-delay` css 속성은 애니메이션이 시작할 시점을 지정한다. 시작 즉시, 잠시 후에, 또는 애니메이션이 일부 진행한 시점부터 시작할 수 있다. `animation-timing-function` css 속성은 각 주기동안 애니메이션이 진행되는 방식을 설정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNKRjXG" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/oNKRjXG">
@@ -110,7 +110,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 `animation-iteration-count` css 속성은 애니메이션 시퀀스가 끝나기 전에 재생될 횟수를 설정한다. `animation-direction` 속성은 애니메이션이 앞으로, 뒤로 또는 앞뒤로 번갈아 재생되어야하는지 여부를 지정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VwoOvaQ" data-pen-title="animation-iteration-count, direction" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/VwoOvaQ">
@@ -125,7 +125,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 `animation-play-state` css 속성은 애니메이션이 실행중인지 일시 중지 되었는지 설정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="BaXeoxX" data-pen-title="animation-play-state" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/BaXeoxX">
@@ -140,7 +140,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 `animation-fill-mode` css 속성은 애니메이션이 실행 전과 후에 대상에 스타일을 적용하는 방법을 지정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWeRjYN" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QWeRjYN">
@@ -155,7 +155,7 @@ css 속성 `animation-name` 은 요소에 적용할 애니메이션을 설명하
 
 `animation` 단축 css 속성은 스타일 사이에 에니메이션을 적용한다. `animation-name`, `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-direction`, `animation-fill-mode`, 그리고 `animation-play-state`의 단축형이다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="poMmjXR" data-pen-title="animation(shorthand)" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/poMmjXR">

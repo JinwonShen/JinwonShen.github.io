@@ -59,7 +59,7 @@ discription:
 
 형식적으로, `display`속성은 요소의 내부 및 외부 디스플레이 유형을 설정한다. 외부 유형은 요소의 흐름 레이아웃 참여를 설정하고, 내부 유형은 자식의 레이아웃을 설정한다. 일부 값은 `display`자체 개별 사양에서 완전히 정의된다. 예를 들어 `display: flex`선언 시 발생하는 내용의 세부 사항은 CSS Flexible Box Model 사양에서 정의된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdNZdpj" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/mdNZdpj">
@@ -74,7 +74,7 @@ discription:
 
 `flex-direction` css 속성은 플렉스 컨테이너 내의 아이템을 배치할 떄 사용할 주축 및 방향(정방향, 역방향)을 지정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="rNXENdM" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/rNXENdM">
@@ -89,7 +89,7 @@ discription:
 
 css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치되게 할 것인지, 가능한 영역 내에서 벗어나지 않고 여러 행으로 나누어 표현 할 것인지 결정하는 속성이다. 요소의 방향 축을 결정할 수도 있다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNVqNYN" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WNVqNYN">
@@ -104,7 +104,7 @@ css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치�
 
 `flex-flow` css 속성은 `flex-direction`, `flex-wrap` 속성의 단축속성이다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNVqNYN" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/WNVqNYN">
@@ -134,7 +134,7 @@ css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치�
 
 `flex-grow` CSS property 는 `flex-item` 요소가, `flex-container` 요소 내부에서 할당 가능한 공간의 정도를 선언한다. 만약 형제 요소로 렌더링 된 모든 `flex-item` 요소들이 동일한 `flex-grow` 값을 갖는다면, `flex-container` 내부에서 동일한 공간을 할당받는다. 하지만 `flex-grow` 값으로 다른 소수값을 지정한다면, 그에 따라 다른 공간값을 나누어 할당받게 된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOgjEew" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/jOgjEew">
@@ -149,7 +149,7 @@ css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치�
 
 `flex-shrink` CSS property는 `flex-item` 요소의 `flex-shrink` 값을 설정하는 속성이다. 만약 `flex-item` 요소의 크기가 `flex-container` 요소의 크기보다 클 때 `flex-shrink` 속성을 사용하는데, 설정된 숫자값에 따라 `flex-container` 요소 내부에서 `flex-item` 요소의 크기가 축소된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOgjEew" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/jOgjEew">
@@ -164,7 +164,7 @@ css `flex-wrap` property는 `flex-item` 요소들이 강제로 한줄에 배치�
 
 `flex-basis` CSS 속성은 플렉스 아이템의 초기 크기를 지정합니다. `box-sizing`을 따로 지정하지 않는다면 콘텐츠 박스의 크기를 변경합니다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ExqBaqG" data-pen-title="flex-basis" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/ExqBaqG">
@@ -262,7 +262,7 @@ justify-content: unset;
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRVbJqN" data-pen-title="justify-contents" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/GRVbJqN">
@@ -277,7 +277,7 @@ justify-content: unset;
 
 CSS `align-items` 속성은 모든 직계 자식에 대해 `align-self`값을 그룹으로 설정한다. 플렉스박스의 교차축을 따라 아이템을 정렬합니다. 그리드 레이아웃의 그리드 영역내 블록 축을 따라 아이템을 정렬한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYgVGBb" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/zYgVGBb">
@@ -292,7 +292,7 @@ CSS `align-items` 속성은 모든 직계 자식에 대해 `align-self`값을 �
 
 CSS `align-content` 속성은 콘텐츠 사이와 콘텐츠 주위 빈 공간을 플렉스 박스'의 교차축 또는 그리드의 블록 축을 따라 배치하는 방식을 결정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOgjPMz" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/jOgjPMz">
@@ -307,7 +307,7 @@ CSS `align-content` 속성은 콘텐츠 사이와 콘텐츠 주위 빈 공간을
 
 css `align-self` 속성은 그리드 또는 플렉스 항목의 값을 재정의한다. 그리드에서 그리드 영역 내부에 항목을 정렬한다. 플렉스 박스에서 교차 축에 항목을 정렬한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNKrXBX" data-pen-title="Untitled" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/oNKrXBX">

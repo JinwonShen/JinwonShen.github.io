@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "(css) Selector(선택자)"
-date:   2024-11-16 13:38:00 +09:00
+title: "(css) Selector(선택자)"
+date: 2024-11-16 13:38:00 +09:00
 categories: notice
 usemathjax: true
 tag:
@@ -13,7 +13,7 @@ tag:
   - attribute selector
   - pseudo-class selector
 
-discription: 
+discription:
 ---
 
 # css Selector(선택자)
@@ -54,7 +54,8 @@ h1 {
 또한 이들 사이에 쉼표를 추가해 선택자 목록으로 결합할 수도 있다.
 
 ```css
-h1, .special {
+h1,
+.special {
   color: blue;
 }
 ```
@@ -79,22 +80,18 @@ h1,
 ```css
 /* 요소 선택자 */
 h1 {
-
 }
 
 /* 클래스 선택자 */
 .box {
-
 }
 
 /* ID 선택자 */
 #unique {
-
 }
 
 /* 범용 선택자 */
 * {
-
 }
 ```
 
@@ -112,12 +109,12 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 <br>
 
-| 선택자                | 예시                               |    설명    |
-| :------------------ | :-------------------------------- | :-------: |
-| [attr] | a[title] | attr 속성이 있는 요소와 일치한다.(이름은 대괄호 안의 값.) |
-| [attr=value] | a[href="https://example.com"] | 값이 정확히 value(따옴표 안의 문자열)인 attr속성이 있는 요소와 일치한다. |
-| [attr~=value] | p[class~="special"] | 값이 정확히 value이거나 (공백으로 분류된) 값 목록에 value가 포함된 attr 속성이 있는 요소와 일치한다. |
-| [attr\|=value] | div[lang\|="zh"] | 값이 정확히 value이거나 바로 뒤에 하이픈이 오는 value로 시작하는 attr 속성이 있는 요소와 일치한다. |
+| 선택자         | 예시                          |                                                 설명                                                 |
+| :------------- | :---------------------------- | :--------------------------------------------------------------------------------------------------: |
+| [attr]         | a[title]                      |                      attr 속성이 있는 요소와 일치한다.(이름은 대괄호 안의 값.)                       |
+| [attr=value]   | a[href="https://example.com"] |               값이 정확히 value(따옴표 안의 문자열)인 attr속성이 있는 요소와 일치한다.               |
+| [attr~=value]  | p[class~="special"]           | 값이 정확히 value이거나 (공백으로 분류된) 값 목록에 value가 포함된 attr 속성이 있는 요소와 일치한다. |
+| [attr\|=value] | div[lang\|="zh"]              |  값이 정확히 value이거나 바로 뒤에 하이픈이 오는 value로 시작하는 attr 속성이 있는 요소와 일치한다.  |
 
 아래 예에서 이러한 선택자가 사용되는 것을 볼 수 있다.
 
@@ -142,11 +139,11 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 이러한 선택자는 속성 값 내에서 하위 문자열의 고급 일치를 허용한다. 예를 들어 `box-warning` alc `box-error` 클래스가 있고 문자열 "box-x"로 시작하는 모든 항목을 일치시키려는 경우, `[class^="box-"]` 를 사용해 둘 다 선택할 수 있다. (또는 위 섹션에서 설명한 `class\|="box"`).
 
-| 선택자                | 예시                               |    설명    |
-| :------------------ | :-------------------------------- | :-------: |
-| [attr^=value] | li[class^="box-"] | 값이 value로 시작하는 attr 속성이 있는 요소와 일치한다. |
-| [attr$=value] | li[class$="-box"] | 값이 value로 끝나는 attr 속성이 있는 요소와 일치한다. |
-| [attr*=value] | li[class*="box"] | 값이 문자열 내에서 value를 포함하는 attr 속성이 있는 요소와 일치한다. |
+| 선택자        | 예시              |                                 설명                                  |
+| :------------ | :---------------- | :-------------------------------------------------------------------: |
+| [attr^=value] | li[class^="box-"] |        값이 value로 시작하는 attr 속성이 있는 요소와 일치한다.        |
+| [attr$=value] | li[class$="-box"] |         값이 value로 끝나는 attr 속성이 있는 요소와 일치한다.         |
+| [attr*=value] | li[class*="box"]  | 값이 문자열 내에서 value를 포함하는 attr 속성이 있는 요소와 일치한다. |
 
 **(참고:`^`및 `$`는 소위 정규식에서 각각 시작 및 종료를 의미하는 닻으로 오랫동안 사용되어 왔다는 점에 유의하는 것이 도움이 될 수 있다.)**
 
@@ -168,7 +165,6 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 ## Pseudo-class Selector(가상 클래스 선택자 혹은 의사 클래스 선택자)
 
 가상 클래스 선택자 혹은 의사 클래스 및 의사 요소라고 하는 선택자로 여러 개가 있으며, 종종 매우 특정한 목적을 위해 사용된다. 사용 방법을 알게 되면 목록을 보고 달성하려는 작업에 적합한 것이 있는지 확인할 수 있다.
-
 
 ### 가상 클래스, 의사 클래스란 ?
 
@@ -211,7 +207,6 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-
 ### 가상/의사-요소란 ?
 
 가상/의사 요소는 유사항 방식으로 동작하는데, 기존 요소에 클래스를 적용하는 것이 아니라 완전히 새로운 html요소를 마크업에 추가한 것처럼 작동한다.
@@ -241,7 +236,7 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 아래 예에서는, `.box` 클래스가 있는 요소 내부에 있는 `<p>` 요소만 일치시킨다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWePKxQ" data-pen-title="후손 결합자" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/QWePKxQ">
@@ -258,7 +253,7 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 다음 예제에서는, 정렬되지 않은 목록이 있으며, 내부에 정렬된 목록이 중첩되어 있다. 자식 결합자는 `<ul>`의 직계 자식 `<li>`요소만 선택하고 위쪽 테두리로 스타일을 지정한다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKOYgBR" data-pen-title="자식 결합자" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/KKOYgBR">
@@ -275,7 +270,7 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 아래 예와 같이 제목 뒤에 오는 단락으로 작업을 수행. 예에서 우리는 부모 요소를 `<h1>`과 공유하고 `<h1>` 바로 다음에 오는 모든 단락을 찾는다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvVZzEr" data-pen-title="인접 형제 결합자" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/wvVZzEr">
@@ -292,7 +287,7 @@ html에 대한 연구에서 알 수 있듯이, 요소에는 마크업되는 요�
 
 아래 예에서는 `<h1>`뒤에 오는 모든 `<p>`요소를 선택하며 문서에도 `<div>`가 있지만 그 뒤에 오는 `<p>`가 선택된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYgXKJX" data-pen-title="일반 형제 결합자" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/zYgXKJX">
@@ -311,15 +306,15 @@ css가 html에 적용되는 방법과 충돌을 해결하는 방법을 제어하
 
 css는 Cascading Style Sheet의 약자로, css라는 단어를 이해하는 데 있어 첫 번째 단어 cascading은 매우 중요하다.
 
-일반적으로 문제는 동일한 요소에 적용할 수 있는 두 가지 규칙을 작성했을 때 나타나는데, 계단식(cascading)과 밀접하게 관련된 우선순위(specificity) 개념은 그런 충돌이 있을 때 적용되는 규칙을 제어하는 메커니즘이다. 
+일반적으로 문제는 동일한 요소에 적용할 수 있는 두 가지 규칙을 작성했을 때 나타나는데, 계단식(cascading)과 밀접하게 관련된 우선순위(specificity) 개념은 그런 충돌이 있을 때 적용되는 규칙을 제어하는 메커니즘이다.
 
-<b>상속</b>의 개념도 중요한데, 기본적으로 일부 css속성은 현재 요소의 부모 요소에 설정된 값을 상속하지만, 일부는 그렇지 않다. 
+<b>상속</b>의 개념도 중요한데, 기본적으로 일부 css속성은 현재 요소의 부모 요소에 설정된 값을 상속하지만, 일부는 그렇지 않다.
 
 ### 계단식(cascade)
 
 스타일 시트 cascade 매우 간단한 수준에서는 이는 css 규칙의 순서가 중요하다는 것을 의미한다. 동일한 우선순위를 갖는 두 규칙이 적용될 때, css에서는 마지막에 오는 규칙이 사용된다.
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="poMBEQZ" data-pen-title="cascade" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/poMBEQZ">
@@ -373,7 +368,7 @@ css는 상속을 제어하기 위한 4가지 특수 범용 속성 값을 제공.
 
 <br>
 
-- 따라하기
+**따라하기**
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abexmxo" data-pen-title="상속 제어하기" data-user="sjinwon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sjinwon/pen/abexmxo">
