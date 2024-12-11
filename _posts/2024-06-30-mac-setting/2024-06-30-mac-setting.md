@@ -74,8 +74,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 위 명령어가 동작하지 않는다면, `cat ~/.ssh/id_rsa.pub` 명령어를 사용해 터미널에 표시하고, 해당 키를 수동으로 복사한다.
 
-<br>
-
 - GitHub에 SSH 공개 키 등록:
   GitHub 웹사이트에서 우측 상단의 사용자 아이콘을 클릭하고, Settings로 이동합니다.
   좌측 메뉴에서 "SSH and GPG keys"를 선택합니다.
