@@ -50,7 +50,7 @@ discription:
 
 <br>
 
-### 간단 예제
+### 간단한 예시
 
 ```css
 @keyframes identifier {
