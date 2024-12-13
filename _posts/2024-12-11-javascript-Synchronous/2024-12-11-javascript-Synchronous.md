@@ -8,6 +8,19 @@ tag:
   - javascript
   - js
   - 동기(Synchronous)
+  - 비동기(Asynchronous)
+  - Callback
+  - Callback Hell
+  - Async & Await
+  - Promise
+  - try
+  - Pending
+  - Fulfilled
+  - Rejected
+  - .then()
+  - .catch()
+  - .finally()
+  - fetch
 discription:
 ---
 
