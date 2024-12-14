@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "(javascript/js) 가비지 컬렉션(Garbage Collection)"
-date: 2024-12-13 21:06:00 +09:00
-lastmode: 2024-12-13 21:06:00 +09:00
+date: 2024-12-13 21:07:00 +09:00
+lastmode: 2024-12-13 21:07:00 +09:00
 sitemap.changefreq: weekly
 sitemap.priority: 0.5
 categories: notice
