@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 콜 스택(Call Stack)과 이벤트 루프(Event Loop)"
 date: 2024-12-13 22:53:00 +09:00
+lastmode: 2024-12-13 22:53:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

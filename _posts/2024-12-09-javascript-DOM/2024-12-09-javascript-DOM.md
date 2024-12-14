@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) DOM(Document Object Model)"
 date: 2024-12-09 11:32:00 +09:00
+lastmode: 2024-12-09 11:32:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

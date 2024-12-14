@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) JSON(JavaScriptp Object Notation)"
 date: 2024-12-08 20:19:00 +09:00
+lastmode: 2024-12-08 20:19:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

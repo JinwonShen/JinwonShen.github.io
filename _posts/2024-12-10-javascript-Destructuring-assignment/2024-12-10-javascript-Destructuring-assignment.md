@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 구조 분해 할당(Destructuring assignment)"
 date: 2024-12-10 16:18:00 +09:00
+lastmode: 2024-12-10 16:18:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

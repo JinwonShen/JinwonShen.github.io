@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 얕은 복사(Shallow copy)와 깊은 복사(Deep copy)"
 date: 2024-12-13 16:44:00 +09:00
+lastmode: 2024-12-13 16:44:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

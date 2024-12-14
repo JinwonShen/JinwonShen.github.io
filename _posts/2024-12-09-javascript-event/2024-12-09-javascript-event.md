@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 이벤트(event)"
 date: 2024-12-09 18:08:00 +09:00
+lastmode: 2024-12-09 18:08:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

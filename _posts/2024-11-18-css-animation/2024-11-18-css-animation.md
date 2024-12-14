@@ -2,6 +2,9 @@
 layout: post
 title: "(css) animation"
 date: 2024-11-18 22:25:00 +09:00
+lastmode: 2024-11-18 22:25:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

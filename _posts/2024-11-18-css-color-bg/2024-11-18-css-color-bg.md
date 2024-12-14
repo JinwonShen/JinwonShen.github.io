@@ -2,6 +2,9 @@
 layout: post
 title: "(css) 색상과 배경"
 date: 2024-11-18 11:53:00 +09:00
+lastmode: 2024-11-18 11:53:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

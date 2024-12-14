@@ -2,6 +2,9 @@
 layout: post
 title: "(html) html의 구조를 나타내는"
 date: 2024-11-06 18:03:00 +09:00
+lastmode: 2024-11-06 18:03:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

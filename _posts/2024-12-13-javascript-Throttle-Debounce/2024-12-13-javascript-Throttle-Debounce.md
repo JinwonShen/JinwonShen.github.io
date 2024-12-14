@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) Throttle과 Debounce"
 date: 2024-12-13 14:20:00 +09:00
+lastmode: 2024-12-13 14:20:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

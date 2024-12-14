@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) operator 연산자"
 date: 2024-12-07 16:51:00 +09:00
+lastmode: 2024-12-07 16:51:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

@@ -2,6 +2,9 @@
 layout: post
 title: "(MAC) 새로운 mac 환경 세팅하기"
 date: 2024-06-30 21:26:00 +09:00
+lastmode: 2024-06-30 21:26:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

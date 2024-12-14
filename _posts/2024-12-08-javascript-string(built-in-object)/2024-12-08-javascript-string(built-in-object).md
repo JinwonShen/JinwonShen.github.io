@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) string(문자) 표준 내장 객체"
 date: 2024-12-08 01:32:00 +09:00
+lastmode: 2024-12-08 01:32:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

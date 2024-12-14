@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "(css) 핵심 css"
-date:   2024-11-21 23:13:00 +09:00
+title: "(css) 핵심 css"
+date: 2024-11-21 20:41:00 +09:00
+lastmode: 2024-11-21 20:41:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:
   - css
   - keypoint
-discription: 
+discription:
 ---
 
 # 핵심 css
@@ -18,25 +21,25 @@ discription:
 
 ```css
 /* 레이아웃 */
-box-sizing : border-box;
-position : relative | absolute | fixed | sticky;
-display : flex | block | inline-block | block;
+box-sizing: border-box;
+position: relative | absolute | fixed | sticky;
+display: flex | block | inline-block | block;
 /* 여백 */
-margin : 100px;
-padding : 100px; 
+margin: 100px;
+padding: 100px;
 /* 사이즈 및 bg */
-width : 100px;
-height : 100px;
-border : 1px solid #000;
-background : #fff;
+width: 100px;
+height: 100px;
+border: 1px solid #000;
+background: #fff;
 /* 폰트 속성 */
-font-size : 16px;
-font-weight : 300(thin) | 400(normal) | 500(medium) | 700(bord);
-color : #000;
-text-align : center | left | right;
+font-size: 16px;
+font-weight: 300 (thin) | 400 (normal) | 500 (medium) | 700 (bord);
+color: #000;
+text-align: center | left | right;
 /* 등등등.. */
-overflow : auto | scroll | hidden;
-z-index : 1;
+overflow: auto | scroll | hidden;
+z-index: 1;
 ```
 
 <br>
@@ -71,7 +74,7 @@ overflow: auto;
  - :hover, :focus, :focus-visible, :active, :checked, :disabled, :not()
  - :first-cild, :last-child, :nth-child, :only-child
 5. 가상 요소 선택자
- - ::before, ::after, ::placeholder 
+ - ::before, ::after, ::placeholder
 ```
 
 <br>
@@ -100,11 +103,11 @@ overflow: auto;
 1. html과 마찬가지로 구글을 적극적으로 활용하기.
 2. 최대한 찾아보는 습관 가지기.
 3. 검색은 영문이 유리하다.
-    1) 영문 문서를 두려워하지 않기(번역기!)
+   1. 영문 문서를 두려워하지 않기(번역기!)
 4. 공식 문서나 튜토리얼 문서를 잘 확인하자
-    1) [https://developer.mozilla.org/ko/docs/Web/HTML/Element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
-    2) [출처 : https://www.w3schools.com/](https://www.w3schools.com/)
-5. 배운 것을 기록해두자.    
+   1. [https://developer.mozilla.org/ko/docs/Web/HTML/Element](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
+   2. [출처 : https://www.w3schools.com/](https://www.w3schools.com/)
+5. 배운 것을 기록해두자.
 
 > 사실 html 학습 팁과 동일한데, 모든 문제는 구글 혹은 공식문서를 통하면 해결하지 못할 문제는 없는 것 같다.스스로 해결하는 능력 기르기 !
 

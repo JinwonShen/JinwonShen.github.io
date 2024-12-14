@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "(jinwon) 내가 회사를 선택하는 기준"
-date: 2024-11-18 14:57:00 +09:00
+date: 2024-11-20 11:29:00 +09:00
+lastmode: 2024-11-20 11:29:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

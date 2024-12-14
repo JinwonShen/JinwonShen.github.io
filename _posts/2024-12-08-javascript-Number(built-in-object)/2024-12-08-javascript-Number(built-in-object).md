@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) Number(숫자) 표준 내장 객체"
 date: 2024-12-08 13:50:00 +09:00
+lastmode: 2024-12-08 13:50:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

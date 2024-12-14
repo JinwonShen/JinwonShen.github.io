@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 렉시컬 스코프(Lexical Scope)"
 date: 2024-12-13 17:09:00 +09:00
+lastmode: 2024-12-13 17:09:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

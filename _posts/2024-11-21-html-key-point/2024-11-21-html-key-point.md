@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "(html) 핵심 html"
-date: 2024-11-21 23:13:00 +09:00
+date: 2024-11-21 20:23:00 +09:00
+lastmode: 2024-11-21 20:23:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:

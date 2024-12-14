@@ -2,6 +2,9 @@
 layout: post
 title: "(javascript/js) 형변환(Type Conversion)"
 date: 2024-12-07 15:26:00 +09:00
+lastmode: 2024-12-07 15:26:00 +09:00
+sitemap.changefreq: weekly
+sitemap.priority: 0.5
 categories: notice
 usemathjax: true
 tag:
