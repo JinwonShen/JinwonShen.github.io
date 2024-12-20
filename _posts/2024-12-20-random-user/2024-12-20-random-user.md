@@ -13,6 +13,10 @@ tag:
   - module
   - import
   - export
+  - export default
+  - await
+  - async
+  - fetch
 discription:
 ---
 
