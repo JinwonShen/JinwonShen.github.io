@@ -11,6 +11,7 @@ tag:
   - javascript
   - js
   - 구조분해할당
+  - 얕은복사
 discription:
 ---
 
@@ -24,9 +25,6 @@ discription:
 // product container
 const productsContainerEl = document.querySelector(".products-container");
 
-// 불변성을 지킴 - 원본데이터를 최대한 보존 = 이전과 이후 비교가 가능
-// 얕은복사
-// 재할당을 위해 let으로 변수할당
 let filteredProducts = [...products];
 
 // search
@@ -42,6 +40,10 @@ formEl.addEventListener("keyup", () => {
   displayProducts();
 });
 ```
+
+<br>
+
+`let filteredProducts = [...products]` 불변성을 지키고 원본데이터를 최대한 보존해 이전과 이후 비교가 가능하다.(얕은복사)
 
 <br>
 
