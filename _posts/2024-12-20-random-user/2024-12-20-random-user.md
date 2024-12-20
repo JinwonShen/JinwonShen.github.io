@@ -26,9 +26,7 @@ discription:
 
 <br>
 
-### 예제
-
-**모듈로 관리하기**
+### 모듈로 관리하기
 
 ```js
 // getElement
