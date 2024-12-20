@@ -10,6 +10,9 @@ usemathjax: true
 tag:
   - javascript
   - js
+  - load
+  - gif
+  - video
 discription:
 ---
 
